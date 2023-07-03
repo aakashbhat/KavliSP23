@@ -38,7 +38,7 @@
   cool_wind_AGB_scheme = 'Dutch'
   RGB_to_AGB_wind_switch = 1d-4
   Dutch_scaling_factor = 0.8
-
+  use_other_neu=.true.
 / ! end of controls namelist
 
 
