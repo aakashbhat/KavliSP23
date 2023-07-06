@@ -159,3 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 MESA_SS22_day1/
+MESA_SS22_day1_part2/
+Test1
