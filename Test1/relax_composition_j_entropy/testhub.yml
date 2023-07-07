@@ -1,0 +1,24 @@
+    - inlist: inlist_create_input_header
+      runtime_minutes:   4.70
+      model_number:          253
+      star_age:     1.6944052381980646E+07
+      num_retries:            0
+      log_rel_run_E_err:        -9.4796857635401999
+      steps:          253
+      retries:            0
+      redos:            0
+      solver_calls_made:          253
+      solver_calls_failed:            0
+      solver_iterations:         1665
+    - inlist: inlist_start_relax_composition_j_entropy_header
+      runtime_minutes:   0.51
+      model_number:            1
+      star_age:     1.0000000000000000E+08
+      num_retries:            7
+      log_rel_run_E_err:       -12.5257689785595741
+      steps:           58
+      retries:           16
+      redos:            0
+      solver_calls_made:           74
+      solver_calls_failed:           16
+      solver_iterations:          679
