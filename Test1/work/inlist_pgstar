@@ -9,6 +9,7 @@
     Grid2_win_aspect_ratio = 0.55
     Grid2_txt_scale_factor(1) = 0.3
     pgstar_interval=1
-    
+    !file_flag=.true.
+
 
 / ! end of pgstar namelist

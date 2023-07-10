@@ -47,7 +47,7 @@
     num_timescales_for_relax_entropy = 100
     get_entropy_for_relax_from_eos= "eosDT" 
     save_model_when_terminate = .true.
-    save_model_filename = 'relaxed.mod'
+    save_model_filename = 'relaxed2.mod'
 
     pgstar_flag= .true.
     disable_pgstar_during_relax_flag= .false.
