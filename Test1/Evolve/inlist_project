@@ -9,7 +9,7 @@
     set_initial_dt = .true.
     years_for_initial_dt = 0.01
     load_saved_model=.true.
-    load_model_filename="WD_066.mod"
+    load_model_filename="relaxed.mod"
     set_initial_model_number=.true.
     initial_model_number = 0
     set_initial_age=.true.
@@ -22,32 +22,11 @@
     set_initial_cumulative_energy_error = .true.
     new_cumulative_energy_error = 0d0
 
-    !new_rotation_flag = .false.
-    !change_rotation_flag = .false.
-    !change_initial_rotation_flag = .true.
-    !set_initial_surface_rotation_v = .true.
-    !new_surface_rotation_v = 300d0
 
-    ! Relaxes composition to that of a star with an initial mass
-    ! of 10 Msun after TAMS, but before reaching the giant branch
-    relax_initial_composition = .true.
-    relax_composition_filename = "composition.dat"
-    timescale_for_relax_composition = 1d-2 
-
-    !relax_initial_angular_momentum = .false.
-    !relax_angular_momentum_filename = "angular_momentum.dat"
-    timescale_for_relax_angular_momentum = 1d-10
-    max_dt_for_relax_angular_momentum = 1d-9
-    num_timescales_for_relax_angular_momentum = 100
-
-    relax_initial_entropy = .true.
-    relax_entropy_filename = "entropy.dat"
-    timescale_for_relax_entropy = 1d-10
-    max_dt_for_relax_entropy = 1d-9
-    num_timescales_for_relax_entropy = 100
-    get_entropy_for_relax_from_eos= "eosDT" 
+    
     save_model_when_terminate = .true.
     save_model_filename = 'relaxed_evolved.mod'
+
     pgstar_flag= .true.
     disable_pgstar_during_relax_flag= .false.
     pause_before_terminate = .true.
@@ -78,6 +57,7 @@
     !extra_controls_inlist_name(1)= 'inlist_common'
     mesh_delta_coeff=1.0
     log_directory = 'LOGS_evolved_1year'
+    max_abar_for_burning=-1
 
     scale_max_correction = 0.1d0
 
@@ -108,7 +88,6 @@
     !cool_wind_AGB_scheme = 'Dutch'
     !Dutch_wind_lowT_scheme = 'de Jager'
     !Dutch_scaling_factor = 1.0
-    max_abar_for_burning=-1
 
   ! controls for implicit wind
     surf_avg_tau_min = 0
