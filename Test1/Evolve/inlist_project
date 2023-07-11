@@ -6,8 +6,8 @@
     new_net_name="o18_ne22_inert_ni56.net"
     show_net_species_info=.true.
     show_net_reactions_info=.true.
-    set_initial_dt = .true.
-    years_for_initial_dt = 0.01
+    !set_initial_dt = .true.
+    !years_for_initial_dt = 0.01
     load_saved_model=.true.
     load_model_filename="relaxed_064.mod"
     set_initial_model_number=.true.
@@ -44,6 +44,7 @@
 &controls
     x_integer_ctrl(1) = 2
     report_ierr=.true.
+    report_solver_progress=.true.
     ! we do just one step in this inlist, turning off gold for this single step helps
     use_gold_tolerances = .false.
     use_gold2_tolerances = .false.
@@ -83,11 +84,11 @@
     am_gradmu_factor = 0.1d0
     num_cells_for_smooth_gradL_composition_term = 3
 
-    !hot_wind_scheme = 'Dutch'
-    !cool_wind_RGB_scheme = 'Dutch'
-    !cool_wind_AGB_scheme = 'Dutch'
-    !Dutch_wind_lowT_scheme = 'de Jager'
-    !Dutch_scaling_factor = 1.0
+    hot_wind_scheme = 'Dutch'
+    cool_wind_RGB_scheme = 'Dutch'
+    cool_wind_AGB_scheme = 'Dutch'
+    Dutch_wind_lowT_scheme = 'de Jager'
+    Dutch_scaling_factor = 1.0
 
   ! controls for implicit wind
     surf_avg_tau_min = 0
