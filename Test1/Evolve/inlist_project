@@ -43,7 +43,7 @@
 
 &controls
     x_integer_ctrl(1) = 2
-
+    report_ierr=.true.
     ! we do just one step in this inlist, turning off gold for this single step helps
     use_gold_tolerances = .false.
     use_gold2_tolerances = .false.
