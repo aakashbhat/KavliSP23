@@ -158,9 +158,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
-MESA_SS22_day1/
-MESA_SS22_day1_part2/
-make_WD_model
+SummerSchool/
 star
 binary
 LOGS*

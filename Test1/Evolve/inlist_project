@@ -9,7 +9,7 @@
     set_initial_dt = .true.
     years_for_initial_dt = 0.01
     load_saved_model=.true.
-    load_model_filename="relaxed.mod"
+    load_model_filename="relaxed_064.mod"
     set_initial_model_number=.true.
     initial_model_number = 0
     set_initial_age=.true.
