@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 # load and plot data
 h = mr.MesaData('LOGS_evolved_100/profile1.data')
-plot="composition"
+plot="profile"
 if plot=="composition":
     h2 = np.genfromtxt('composition.dat',skip_header=1)
     plt.plot(h.xq, np.log10(h.h1))
@@ -40,3 +40,8 @@ elif plot=="rhoT":
     plt.ylabel("logT")
     plt.show()
         #plt.gca().invert_xaxis()
+
+elif plot=="profile":
+
+        h2 = np.genfromtxt('composition.dat',skip_header=1)
+        gravity=G*h2[:,0]
