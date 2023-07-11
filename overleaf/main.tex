@@ -73,7 +73,7 @@ Evan B. Bauer,$^{2}$
 et al$^{3}$
 \\
 % List of institutions
-$^{1}$Potsdam\\
+$^{1}$University of Potsdam\\
 $^{2}$CfA\\
 $^{3}$Caltech, MPA, etc
 }
@@ -110,12 +110,15 @@ keyword1 -- keyword2 -- keyword3
 
 \section{Introduction}
 
-Intro
+Hypervelocity stars are stars with velocities greater than the escape velocity of the Galaxy. They can be formed in multiple way, but the supernova scenario has become the most common one. In this scenario a compact star, either a stripped He star or a WD, transfers mass to a WD. This mass transfer triggers an explosion in the white dwarf, known as a type Ia supernova. Once this happens the donor star is flung out at the orbital speed of the binary, which due to the compact nature of the stars can reach speeds in the order of 1000 km/s. In recent years there have been observations confirming both these scenarios. 
+
+Recent observations have found the fastest stars in the galaxy coming from the D6 (dynamically driven double degenerate double detonation) channel (\cite{2018ApJ...865...15S},\cite{2023arXiv230603914E}) as well as hypervelocity stars from partial detonations in Type 1ax supernovas \cite{2019MNRAS.489.1489R} and from mass transfer through a He-subdwarf \cite{2005A&A...444L..61H}, \cite{2015Sci...347.1126G}. Out of all these, the D6 stars are the most peculiar, as despite being white dwarfs they lie in the horizontal branch, where one would expect subdwarfs. One of the reasons might be the puffing up of these stars due to the material deposited by the supernova explosion of the primary, wherein attempts have been previously made to understand this phenmenon by \cite{}
+
+In this paper we use the MESA code (\cite{2011ApJS..192....3P}) to relax and evolve a WD to find it's evolutionary track.
 
 \section{Simulations etc}
 
-Lots of brilliant and cool stuff here.
-
+The composition and entropy files are taken from Pakmor et. al. We input x-amount of elemtnal compositions along with the mass cordinates in the form easy for MESA to digest. The entropy is given is as density and temperature coordinates. To get a final WD model which can be relaxed to our compositions and entropy, we used the CO\_WD\_make routine within the test suite of MESA. We allow this model to relax to a final mass of 0.64 $M_{/dot}$. We use 0.64 as an approximation of the mass lost due to the surface cut, which we do at the mass cordinate where the energy due to Ni-56 radiation is 3 times more than the binding energy due to gravity. This WD is then relaxed to the composition and entropy we need. 
 
 \section{Conclusions}
 
@@ -123,9 +126,7 @@ Conclusions
 
 \section*{Acknowledgements}
 
-The Acknowledgements section is not numbered. Here you can thank helpful
-colleagues, acknowledge funding agencies, telescopes and facilities used etc.
-Try to keep it short.
+Kavli Summer program.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Data Availability}
