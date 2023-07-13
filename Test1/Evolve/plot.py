@@ -3,8 +3,8 @@ import mesa_reader as mr
 import matplotlib.pyplot as plt
 import numpy as np
 # load and plot data
-h = mr.MesaData('LOGS_evolved_100/profile1.data')
-plot="composition"
+h = mr.MesaData('LOGS_evolved_1year/profile5.data')
+plot="rhoT"
 if plot=="composition":
     h2 = np.genfromtxt('composition.dat',skip_header=1)
     plt.plot(h.xq, np.log10(h.h1))

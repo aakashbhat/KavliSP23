@@ -23,9 +23,9 @@
     new_cumulative_energy_error = 0d0
 
 
-    set_irradiation=.true.
-    set_to_this_irrad_flux= 3.6d10
-    irrad_col_depth = 3.7D05
+    !set_irradiation=.true.
+    !set_to_this_irrad_flux= 3.6d10
+    !irrad_col_depth = 3.7D05
     save_model_when_terminate = .true.
     save_model_filename = 'relaxed_evolved.mod'
 
@@ -41,7 +41,8 @@
 / ! end of kap namelist
 
 &eos
-  include_elec_pos=.false.
+  !include_elec_pos=.false.
+  !use_free_eos=.false.
 
 / ! end of eos namelist
 
@@ -105,8 +106,8 @@
     mdot_revise_factor = 1.2
     implicit_mdot_boost = 0.1
     
-    okay_to_reduce_gradT_excess=.true.
-    gradT_excess_lambda1=-1
+    !okay_to_reduce_gradT_excess=.true.
+    !gradT_excess_lambda1=-1
 / ! end of controls namelist
 
 
