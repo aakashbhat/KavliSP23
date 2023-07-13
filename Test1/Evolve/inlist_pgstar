@@ -6,12 +6,13 @@
 
     Grid2_win_flag=.true.
     Grid2_win_width = 5! 
-    Grid2_win_aspect_ratio = 0.7
-    Grid2_txt_scale_factor(1) = 0.7
+    Grid2_win_aspect_ratio = 0.8
+    Grid2_txt_scale_factor(1) = 0.8
     pgstar_interval=1
     !file_flag=.true.
     TRho_switch_to_mass=.false.
     TRho_Profile_win_aspect_ratio=1
     show_TRho_Profile_legend = .true.
-
+    show_TRho_Profile_eos_regions=.true.
+    show_TRho_Profile_burn_lines=.false.
 / ! end of pgstar namelist
