@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 # load and plot data
 h = mr.MesaData('LOGS_evolved_1D8years/profile29.data')
-plot="composition"
+plot="time_evolution"
 if plot=="composition":
     h2 = np.genfromtxt('composition.dat',skip_header=1)
     plt.plot(h.xq, np.log10(h.he4))
@@ -52,3 +52,23 @@ elif plot=="HR":
     # invert the x-axis
     plt.gca().invert_xaxis()
     plt.show()
+elif plot=="time_evolution":
+    
+     # load and plot data
+    h = mr.MesaData('LOGS_evolved_1D8years/history.data')
+    figs, axs=plt.subplots(3,1,figsize=(8,14))
+    axs[0].plot(np.log10(h.star_age), h.log_L)
+    axs[0].set_ylabel("logL",fontsize=12)
+    axs[1].plot(np.log10(h.star_age), h.log_R)
+    axs[1].set_ylabel("logR",fontsize=12)
+    axs[2].plot(np.log10(h.star_age), h.log_Teff)
+    axs[2].set_ylabel("logTeff",fontsize=12)
+
+    # set axis labels
+    plt.xlabel('log(Star Age)',fontsize=12)
+    #plt.ylabel('log Luminosity')
+
+    # invert the x-axis
+    #plt.gca().invert_xaxis()
+    plt.savefig("Plots/time_evolved_1d8.pdf")
+    plt.savefig("Plots/time_evolved_1d8.png")
