@@ -3,7 +3,7 @@ import mesa_reader as mr
 import matplotlib.pyplot as plt
 import numpy as np
 # load and plot data
-h = mr.MesaData('LOGS_evolved_1D8years/profile29.data')
+h = mr.MesaData('LOGS_evolved_1D8years_nomaxtimestep_burning/profile12.data')
 plot="time_evolution"
 if plot=="composition":
     h2 = np.genfromtxt('composition.dat',skip_header=1)
@@ -27,8 +27,8 @@ if plot=="composition":
 
     # invert the x-axis
     #plt.gca().invert_xaxis()
-    plt.savefig("Plots/composition_comparison_evolved_1d8.pdf")
-    plt.savefig("Plots/composition_comparison_evolved_1d8.png")
+    plt.savefig("Plots_burning/composition_comparison_evolved_1d8.pdf")
+    plt.savefig("Plots_burning/composition_comparison_evolved_1d8.png")
 
 
 elif plot=="rhoT":
@@ -42,7 +42,7 @@ elif plot=="rhoT":
 
 elif plot=="HR":
     # load and plot data
-    h = mr.MesaData('LOGS_evolved_1D8years/history.data')
+    h = mr.MesaData('LOGS_evolved_1D8years_nomaxtimestep_burning/history.data')
     plt.plot(h.log_Teff, h.log_L)
 
     # set axis labels
@@ -51,11 +51,12 @@ elif plot=="HR":
 
     # invert the x-axis
     plt.gca().invert_xaxis()
-    plt.show()
+    plt.savefig("Plots_burning/HR_1d8.pdf")
+    plt.savefig("Plots_burning/HR_1d8.png")
 elif plot=="time_evolution":
     
      # load and plot data
-    h = mr.MesaData('LOGS_evolved_1D8years/history.data')
+    h = mr.MesaData('LOGS_evolved_1D8years_nomaxtimestep_burning/history.data')
     figs, axs=plt.subplots(3,1,figsize=(8,14))
     axs[0].plot(np.log10(h.star_age), h.log_L)
     axs[0].set_ylabel("logL",fontsize=12)
@@ -70,5 +71,9 @@ elif plot=="time_evolution":
 
     # invert the x-axis
     #plt.gca().invert_xaxis()
-    plt.savefig("Plots/time_evolved_1d8.pdf")
-    plt.savefig("Plots/time_evolved_1d8.png")
+    plt.savefig("Plots_burning/time_evolved_1d8.pdf")
+    plt.savefig("Plots_burning/time_evolved_1d8.png")
+elif plot=="radial_profile":
+    h = mr.MesaData('LOGS_evolved_1D8years/profile3.data')
+    plt.plot(h.logR,np.log10(h.mass))
+    plt.savefig("Plots_burning/mass_radial_profile_1d8_profile3.png")
