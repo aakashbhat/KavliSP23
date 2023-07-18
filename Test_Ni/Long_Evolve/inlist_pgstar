@@ -7,13 +7,13 @@
     Grid2_win_flag=.true.
     
     Grid2_file_flag = .true.
-    Grid2_file_interval = 5
+    Grid2_file_interval = 20
     Grid2_file_width = 12
 
     Grid2_win_width = 6 ! 
     Grid2_win_aspect_ratio = 0.8
     Grid2_txt_scale_factor(1) = 0.8
-    pgstar_interval=3
+    pgstar_interval=20
     !file_flag=.true.
     TRho_switch_to_mass=.false.
     TRho_Profile_win_aspect_ratio=1

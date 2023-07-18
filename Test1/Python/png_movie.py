@@ -1,7 +1,7 @@
 import os
 import imageio
 
-directory="/userdata/data/bhat/D6/KavliSP23/Test_Ni/Long_Evolve/png"
+directory="/userdata/data/bhat/D6/KavliSP23/Test1/Long_Evolve/png"
 
 output_file="/userdata/data/bhat/D6/KavliSP23/Test1/Long_Evolve/png/movie.mp4"
 
