@@ -1,7 +1,7 @@
 import os
 import imageio
 
-directory="/userdata/data/bhat/D6/KavliSP23/Test1/Long_Evolve/png"
+directory="/userdata/data/bhat/D6/KavliSP23/Test_Ni/Long_Evolve/png"
 
 output_file="/userdata/data/bhat/D6/KavliSP23/Test1/Long_Evolve/png/movie.mp4"
 
@@ -14,5 +14,5 @@ for file in files:
     image=imageio.imread(file_path)
     frames.append(image)
 
-imageio.mimsave(output_file,frames,fps=5)
+imageio.mimsave(output_file,frames,fps=20)
 

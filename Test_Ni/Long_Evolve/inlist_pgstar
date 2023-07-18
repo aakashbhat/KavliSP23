@@ -1,0 +1,42 @@
+&pgstar
+  ! see star/defaults/pgstar.defaults
+
+  ! MESA uses PGPLOT for live plotting and gives the user a tremendous
+  ! amount of control of the presentation of the information.
+
+    Grid2_win_flag=.true.
+    
+    Grid2_file_flag = .true.
+    Grid2_file_interval = 5
+    Grid2_file_width = 12
+
+    Grid2_win_width = 6 ! 
+    Grid2_win_aspect_ratio = 0.8
+    Grid2_txt_scale_factor(1) = 0.8
+    pgstar_interval=3
+    !file_flag=.true.
+    TRho_switch_to_mass=.false.
+    TRho_Profile_win_aspect_ratio=1
+    show_TRho_Profile_legend = .true.
+    show_TRho_Profile_eos_regions=.true.
+    show_TRho_Profile_burn_lines=.false.
+    Grid2_num_plots = 5
+
+    Grid2_plot_name(5) = 'Profile_Panels3'
+    Profile_Panels3_num_panels = 4
+    Profile_Panels3_xaxis_name = 'logrho'
+    Profile_Panels3_yaxis_name(3) = 'radius'
+    Profile_Panels3_other_yaxis_name(3) = 'logT'
+    Profile_Panels3_yaxis_name(4) = 'logS'
+    Profile_Panels3_other_yaxis_name(4) = 'logL'
+    
+    !Grid2_plot_name(6) = 'Profile_Panels3'
+    !Profile_Panels4_xaxis_name = 'radius'
+    !Profile_Panels3_yaxis_name(4) = 'LogL'
+    !Profile_Panels3_yaxis_name(4) = 'LogS'
+
+
+
+
+
+/ ! end of pgstar namelist
