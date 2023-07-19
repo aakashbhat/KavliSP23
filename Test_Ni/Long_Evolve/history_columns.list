@@ -276,7 +276,7 @@
       !ar_alpha
       !ca_alpha
       !ti_alpha
-      !fe_co_ni
+      fe_co_ni
       !c12_c12
       !c12_o16
       !o16_o16
@@ -288,7 +288,8 @@
    
           ! adds columns for all of the reactions that are in the current net 
       ! Note that if using op_split_burn=.true. then zones which have been split will report 0 for thier rates
-      !add_raw_rates      ! raw reaction rates,       reactions/second
+      !
+      add_raw_rates      ! raw reaction rates,       reactions/second
       !add_screened_rates ! screened reaction rates reactions/second
       !add_eps_nuc_rates  ! Nuclear energy (minus neutrino losses) released   erg/s
       !add_eps_neu_rates  ! Neutrino losses             erg/s
@@ -508,7 +509,7 @@
 
       log_g ! log10 gravity
       !gravity
-      !log_Ledd
+      log_Ledd
       log_L_div_Ledd ! log10(L/Leddington)
       !lum_div_Ledd
       !log_surf_optical_depth
