@@ -43,6 +43,14 @@
 &eos
   !include_elec_pos=.false.
   !use_free_eos=.false.
+  use_simple_Skye_blends=.true.
+  logT_min_for_any_Skye = 8.0
+  logT_min_for_all_Skye = 8.2
+  logrho_min_for_any_Skye =2.9
+  logrho_min_for_all_Skye =3.0
+
+  logT_max_freeEOS_HI= 8.2
+  logT_max_freeEOS_lo=8.2
 
 / ! end of eos namelist
 
@@ -93,7 +101,7 @@
     cool_wind_AGB_scheme = 'Dutch'
     Dutch_wind_lowT_scheme = 'de Jager'
     Dutch_scaling_factor = 1.0
-    super_eddington_wind_Ledd_factor=1
+    super_eddington_wind_Ledd_factor=0.9
     super_eddington_scaling_factor=1
   ! controls for implicit wind
     surf_avg_tau_min = 0
@@ -106,9 +114,10 @@
     rotational_mdot_kh_fac = 1d10
     mdot_revise_factor = 1.2
     implicit_mdot_boost = 0.1
-    
+    eps_mdot_factor = 0d0
     okay_to_reduce_gradT_excess=.true.
     gradT_excess_lambda1=-1
+    !Pextra_factor = 1.2
 / ! end of controls namelist
 
 

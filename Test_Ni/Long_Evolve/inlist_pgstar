@@ -7,13 +7,13 @@
     Grid2_win_flag=.true.
     
     Grid2_file_flag = .true.
-    Grid2_file_interval = 20
+    Grid2_file_interval = 2
     Grid2_file_width = 12
 
     Grid2_win_width = 6 ! 
     Grid2_win_aspect_ratio = 0.8
     Grid2_txt_scale_factor(1) = 0.8
-    pgstar_interval=20
+    pgstar_interval=2
     !file_flag=.true.
     TRho_switch_to_mass=.false.
     TRho_Profile_win_aspect_ratio=1
@@ -27,12 +27,12 @@
     Profile_Panels3_xaxis_name = 'logrho'
     Profile_Panels3_yaxis_name(3) = 'radius'
     Profile_Panels3_other_yaxis_name(3) = 'logT'
-    Profile_Panels3_yaxis_name(4) = 'logS'
-    Profile_Panels3_other_yaxis_name(4) = 'logL'
+    Profile_Panels3_yaxis_name(4) = 'eos_frac_FreeEOS'
+    Profile_Panels3_other_yaxis_name(4) = 'eos_frac_HELM'
     
     !Grid2_plot_name(6) = 'Profile_Panels3'
     !Profile_Panels4_xaxis_name = 'radius'
-    !Profile_Panels3_yaxis_name(4) = 'LogL'
+    !Profile_Panels3_yaxis_name(4) = 'eos_frac_FreeEOS'
     !Profile_Panels3_yaxis_name(4) = 'LogS'
 
 
