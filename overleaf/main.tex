@@ -92,10 +92,10 @@ $^{3}$Caltech, MPA, etc
 
 % Abstract of the paper
 \begin{abstract}
-This is a simple template for authors to write new MNRAS papers.
-The abstract should briefly describe the aims, methods, and main results of the paper.
-It should be a single paragraph not more than 250 words (200 words for Letters).
-No references should appear in the abstract.
+The fastest runaway stars in our Galaxy are produced by supernovae in very compact double white dwarf binaries. Their measured velocities alone provide strong constraints on the configurations of the binaries that produced them at the moment of supernova detonation. We observe the runaway stellar remnants a few million years after they were released from their companion supernova at ≈2000 km/s, but their current stellar structure is very different from the compact configuration they must have had in a double white dwarf binary. No detailed stellar evolution simulations have yet succeeded in reproducing and explaining their currently inflated and luminous states, and recent discoveries have provided fresh motivation for stellar evolution models to compare to the growing population of these hypervelocity runaways. Existing simulations of the hydrodynamics in the binary leading up to supernova detonation will provide an excellent starting point for building models to explore the subsequent stellar evolution of the runaway donor using MESA.
+We will start from the structure of runaway companion stars in 3D AREPO simulations and explore how to map the state of the donor star at the end of the 3D simulation into a 1D state suitable for long-term stellar evolution in MESA. We will use the MESA composition and entropy relaxation routines to import spherical averages from the AREPO donor remnant model, and then evolve the resulting 1D stellar model. We will attempt to quantify the timescales for phases of evolution post SN impact, and compare to the demographics of the observed runaway population. The distribution of currently observed runaways appears unexpectedly skewed toward very high runaway velocities corresponding to high WD donor masses, and our models may be able to clarify whether this distribution is inherent to the population of WD binaries that produce supernovae, or whether it is due to a selection bias based on the timescales and observability of states achieved by runaways at various masses. This could help constrain whether hypervelocity runaways from white dwarf binaries represent a common or peculiar outcome related to type Ia supernova detonations. The tools developed in this work could also potentially be extended to model another related class of runaway stars thought to come from pure deflagrations that produced type “Iax” supernovae.
+
+
 \end{abstract}
 
 % Select between one and six entries from the list of approved keywords.
@@ -110,23 +110,49 @@ keyword1 -- keyword2 -- keyword3
 
 \section{Introduction}
 
-Hypervelocity stars are stars with velocities greater than the escape velocity of the Galaxy. They can be formed in multiple way, but the supernova scenario has become the most common one. In this scenario a compact star, either a stripped He star or a WD, transfers mass to a WD. This mass transfer triggers an explosion in the white dwarf, known as a type Ia supernova. Once this happens the donor star is flung out at the orbital speed of the binary, which due to the compact nature of the stars can reach speeds in the order of 1000 km/s. In recent years there have been observations confirming both these scenarios. 
+Hypervelocity stars are stars with velocities greater than the escape velocity of the Galaxy. They can be formed in multiple ways, including the supernova scenario. In this scenario a compact star, either a stripped He star or a WD, transfers mass to a WD. This mass transfer triggers an explosion in the white dwarf, known as a type Ia supernova. Once this happens the donor star is flung out at the orbital speed of the binary, which due to the compact nature of the stars can reach speeds in the order of 1000 km/s. In recent years there have been observations confirming both these formation channels. 
 
-Recent observations have found the fastest stars in the galaxy coming from the D6 (dynamically driven double degenerate double detonation) channel (\cite{2018ApJ...865...15S},\cite{2023arXiv230603914E}) as well as hypervelocity stars from partial detonations in Type 1ax supernovas \cite{2019MNRAS.489.1489R} and from mass transfer through a He-subdwarf \cite{2005A&A...444L..61H}, \cite{2015Sci...347.1126G}. Out of all these, the D6 stars are the most peculiar, as despite being white dwarfs they lie in the horizontal branch, where one would expect subdwarfs. One of the reasons might be the puffing up of these stars due to the material deposited by the supernova explosion of the primary, wherein attempts have been previously made to understand this phenmenon by \cite{}
+Recent observations have found the fastest stars in the galaxy coming from the D6 (dynamically driven double degenerate double detonation) channel (\cite{2018ApJ...865...15S},\cite{2023arXiv230603914E}) as well as hypervelocity stars from partial detonations in Type 1ax supernovas \cite{2019MNRAS.489.1489R} and from mass transfer through a He-subdwarf \cite{2005A&A...444L..61H}, \cite{2015Sci...347.1126G}. Out of all these, the D6 stars are the most peculiar, as despite being white dwarfs they lie in the horizontal branch, where one would expect subdwarfs. One of the reasons might be the puffing up of these stars due to the material deposited by the supernova explosion of the primary, wherein attempts have been previously made to understand this phenomenon by \cite{2019ApJ...887...68B} for subdwarfs
 
-In this paper we use the MESA code (\cite{2011ApJS..192....3P}) to relax and evolve a WD to find it's evolutionary track.
+In this paper we use the MESA code (\cite{2011ApJS..192....3P}) to relax and evolve a WD which has been contaminated by supernova ejecta from another white dwarf to find it's evolutionary track. 
 
 \section{Simulations etc}
 
-The composition and entropy files are taken from Pakmor et. al. We input x-amount of elemtnal compositions along with the mass cordinates in the form easy for MESA to digest. The entropy is given is as density and temperature coordinates. To get a final WD model which can be relaxed to our compositions and entropy, we used the CO\_WD\_make routine within the test suite of MESA. We allow this model to relax to a final mass of 0.64 $M_{/dot}$. We use 0.64 as an approximation of the mass lost due to the surface cut, which we do at the mass cordinate where the energy due to Ni-56 radiation is 3 times more than the binding energy due to gravity. This WD is then relaxed to the composition and entropy we need. 
+The composition and entropy files are taken from Pakmor et. al. using the code Arepo (\cite{2020ApJS..248...32W}). We input  elemental compositions along with the mass coordinates in a form easy for MESA to digest. The entropy is given is as density and temperature coordinates. To get a final WD model which can be relaxed to our compositions and entropy, we used the CO\_WD\_make routine within the test suite of MESA. We allow this model to relax to a final mass of 0.64 $M_{\odot}$. We use 0.64 as an approximation of the mass lost due to the surface cut, which we do at the mass coordinate where the energy due to Ni-56 radiation is 2 times more than the binding energy due to gravity. Without this Ni-56 cut, our models didn't evolve. This WD is finally relaxed to the composition and entropy we need. 
 
+We did three compositions of helium 4, including one with 5 times as much Helium. The effect of surface Hydrogen was also tested and was found to be neglibile since most of the surface is blown away by the Ni-56 decay into Co-56 and further into Fe-56. We allow super-eddington winds in our models to model this mass loss.
+
+
+\section{Reactions etc}
+
+We used multiple networks for this work. In the beginning we employed the use of basic\_net with added isotopes and reactions of Fe-56, O-16 and Ne-22. We used this as a probe against which future models with elemental burning could be compared. However, due to the simplistic addition of reactions we shifted to the approx21\_withCO56 as our main network.
+
+Our final model required many more elements. We used an Approx21 network and added reactions of Ti-44 to Scandium and Calcium, and aluminium 27. We also added Nickel to cobalt to Iron chain. 
+
+\section{Opacities}
+
+The default MESA opacities are in form of tabulated tables. As our WD surface is polluted due to the supernova ejecta of the destroyed primary, theses opacity tables are not ideal. To deal with this we add the calculation of monochromatic opacities to our MESA code taken from the Opacity Project (\cite{paxton_bill_2011_4390522}). 
 \section{Conclusions}
 
 Conclusions
 
 \section*{Acknowledgements}
 
-Kavli Summer program.
+Kavli Summer program. Modules for Experiments in Stellar Astrophysics
+\citep[MESA][]{Paxton2011, Paxton2013, Paxton2015, Paxton2018, Paxton2019, Jermyn2023}. The MESA EOS is a blend of the OPAL \citep{Rogers2002}, SCVH
+\citep{Saumon1995}, FreeEOS \citep{Irwin2004}, HELM \citep{Timmes2000},
+PC \citep{Potekhin2010}, and Skye \citep{Jermyn2021} EOSes.
+
+Radiative opacities are primarily from OPAL \citep{Iglesias1993,
+Iglesias1996}, with low-temperature data from \citet{Ferguson2005}
+and the high-temperature, Compton-scattering dominated regime by
+\citet{Poutanen2017}.  Electron conduction opacities are from
+\citet{Cassisi2007} and \citet{Blouin2020}.
+
+Nuclear reaction rates are from JINA REACLIB \citep{Cyburt2010}, NACRE \citep{Angulo1999} and
+additional tabulated weak reaction rates \citet{Fuller1985, Oda1994,
+Langanke2000}.  Screening is included via the prescription of \citet{Chugunov2007}.
+Thermal neutrino loss rates are from \citet{Itoh1996}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Data Availability}

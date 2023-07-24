@@ -1,5 +1,0 @@
- include 'basic.net'
-
- include 'add_o18_and_ne22'
-
- add_isos_and_reactions(si28,fe56,co56,ni56)
