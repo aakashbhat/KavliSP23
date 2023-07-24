@@ -1,9 +1,9 @@
 import os
 import imageio
 
-directory="/userdata/data/bhat/D6/KavliSP23/Test_Ni/Long_Evolve/png_burn_3000"
+directory="/userdata/data/bhat/D6/KavliSP23/Test_Ni/Long_Evolve_Ni/png/"
 
-output_file="/userdata/data/bhat/D6/KavliSP23/Test_Ni/Long_Evolve/png_burn_3000/movie.mp4"
+output_file="/userdata/data/bhat/D6/KavliSP23/Test_Ni/Long_Evolve_Ni/png/movie_5he4.mp4"
 
 files = sorted([file for file in os.listdir(directory) if file.endswith('.png')])
 
