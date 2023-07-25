@@ -1,0 +1,14 @@
+slurmstepd-monoceros: error: Detected 1 oom-kill event(s) in step 14955180.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: monoceros: task 0: Out Of Memory
+slurmstepd-monoceros: error: Detected 1 oom-kill event(s) in step 14955180.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler#!/bin/bash
+  #SBATCH --job-name my_first_job
+  #SBATCH --time 08:00:00
+  #SBATCH --output test-job_%A_%a.out
+  #SBATCH --error test-job_%A_%a.err
+  #SBATCH --partition=remeis
+  #SBATCH --ntasks=8
+  #SBATCH --mem=16G
+  #SBATCH --mail-type=ALL
+  #SBATCH --mail-user=aakashbhat7@gmail.com          
+  #SBATCH --export=all
+  srun -l ./rn

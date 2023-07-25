@@ -1,9 +1,9 @@
 import os
 import imageio
 
-directory="/userdata/data/bhat/D6/KavliSP23/Test_Ni_Opacity/Long_Evolve_Ni/png/"
+directory="/userdata/data/bhat/D6/KavliSP23/Test_Ni_Opacity/Long_Evolve_Ni_opacity_massloss/png_5he4/"
 
-output_file="/userdata/data/bhat/D6/KavliSP23/Test_Ni_Opacity/Long_Evolve_Ni/png/movie_5he4_1,2_newnetwork_lateopacties.mp4"
+output_file="/userdata/data/bhat/D6/KavliSP23/Test_Ni_Opacity/Long_Evolve_Ni_opacity_massloss/png_5he4/movie_5he4_1,2_newnetwork_lateopacties.mp4"
 
 files = sorted([file for file in os.listdir(directory) if file.endswith('.png')])
 
