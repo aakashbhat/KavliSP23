@@ -118,7 +118,7 @@ In this paper we use the MESA code (\cite{2011ApJS..192....3P}) to relax and evo
 
 \section{Simulations etc}
 
-The composition and entropy files are taken from Pakmor et. al. using the code Arepo (\cite{2020ApJS..248...32W}). We input  elemental compositions along with the mass coordinates in a form easy for MESA to digest. The entropy is given is as density and temperature coordinates. To get a final WD model which can be relaxed to our compositions and entropy, we used the CO\_WD\_make routine within the test suite of MESA. We allow this model to relax to a final mass of 0.64 $M_{\odot}$. We use 0.64 as an approximation of the mass lost due to the surface cut, which we do at the mass coordinate where the energy due to Ni-56 radiation is 2 times more than the binding energy due to gravity. Without this Ni-56 cut, our models didn't evolve. This WD is finally relaxed to the composition and entropy we need. 
+The composition and entropy files are taken from Pakmor et. al. using the code Arepo (\cite{2020ApJS..248...32W}). We input  elemental compositions along with the mass coordinates in a form easy for MESA to digest. The entropy is given is as density and temperature coordinates. To get a final WD model which can be relaxed to our compositions and entropy, we used the CO\_WD\_make routine within the test suite of MESA. We allow this model to relax to a final mass of 0.64 $M_{\odot}$. We use 0.64 as an approximation of the mass lost due to the surface cut, which we do at the mass coordinate where the energy due to Ni-56 radiation is 2 times more than the binding energy due to gravity. Without this Ni-56 cut, our models didn't evolve as the temperature and density profiles get stuck in a blending region of the EOS where the solver has trouble converging. This WD is finally relaxed to the composition and entropy we need. 
 
 We did three compositions of helium 4, including one with 5 times as much Helium. The effect of surface Hydrogen was also tested and was found to be neglibile since most of the surface is blown away by the Ni-56 decay into Co-56 and further into Fe-56. We allow super-eddington winds in our models to model this mass loss.
 
@@ -132,6 +132,15 @@ Our final model required many more elements. We used an Approx21 network and add
 \section{Opacities}
 
 The default MESA opacities are in form of tabulated tables. As our WD surface is polluted due to the supernova ejecta of the destroyed primary, theses opacity tables are not ideal. To deal with this we add the calculation of monochromatic opacities to our MESA code taken from the Opacity Project (\cite{paxton_bill_2011_4390522}). 
+
+
+\section{Evolution}
+
+\subsection{Evolution with Iron}
+
+To have a baseline with which to compare our models, we assumed that all the Ni-56 had converted to Fe-56, and used the composition profile of Ni-56 as the profile for carbon. 
+
+
 \section{Conclusions}
 
 Conclusions
