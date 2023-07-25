@@ -3,7 +3,7 @@ import mesa_reader as mr
 import matplotlib.pyplot as plt
 import numpy as np
 # load and plot data
-h = mr.MesaData('LOGS_relaxed_064_Fe_cut/profile1.data')
+h = mr.MesaData('LOGS_relaxed_064/profile1.data')
 plot="rhoT"
 if plot=="composition":
     h2 = np.genfromtxt('composition.dat',skip_header=1)
@@ -38,7 +38,7 @@ elif plot=="rhoT":
     plt.plot(np.log10(h3[:,1]),np.log10(h3[:,2]))
     plt.xlabel(r"log$\rho$")
     plt.ylabel("logT")
-    plt.savefig("Plots/entropy_relaxed_064_Fe_cut.png")
+    plt.savefig("Plots/entropy_relaxed_064.png")
         #plt.gca().invert_xaxis()
 
 elif plot=="profile":
