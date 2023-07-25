@@ -6,7 +6,6 @@
   #SBATCH --partition=remeis
   #SBATCH --ntasks=8
   #SBATCH --mem-per-cpu=16G
-  setenv OMP_NUM_THREADS 8
   #SBATCH --mail-type=ALL
   #SBATCH --mail-user=aakashbhat7@gmail.com          
   #SBATCH --export=all
