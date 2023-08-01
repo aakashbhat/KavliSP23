@@ -1,0 +1,4 @@
+0: DATE: 2023-07-27
+0: TIME: 15:36:53
+0: target file inlist_create_input_header does not exist
+srun: error: pegasus: task 0: Exited with exit code 1

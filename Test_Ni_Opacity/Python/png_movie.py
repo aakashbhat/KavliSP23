@@ -1,9 +1,9 @@
 import os
 import imageio
 
-directory="/userdata/data/bhat/D6/KavliSP23/Test_Ni_Opacity/Long_Evolve_Ni_opacity_massloss/png_5he4/"
+directory="/userdata/data/bhat/D6/KavliSP23/Test_Ni_Opacity/Long_Evolve_Ni_opacity_massloss-10_7K/png/"
 
-output_file="/userdata/data/bhat/D6/KavliSP23/Test_Ni_Opacity/Long_Evolve_Ni_opacity_massloss/png_5he4/movie_5he4_1,2_newnetwork_lateopacties.mp4"
+output_file="/userdata/data/bhat/D6/KavliSP23/Test_Ni_Opacity/Long_Evolve_Ni_opacity_massloss-10_7K/png/movie.mp4"
 
 files = sorted([file for file in os.listdir(directory) if file.endswith('.png')])
 
@@ -14,5 +14,5 @@ for file in files:
     image=imageio.imread(file_path)
     frames.append(image)
 
-imageio.mimsave(output_file,frames,fps=20)
+imageio.mimsave(output_file,frames,fps=10)
 

@@ -515,7 +515,7 @@
       !log_surf_optical_depth
       !surface_optical_depth
 
-      !log_surf_cell_opacity ! old name was log_surf_opacity
+      log_surf_cell_opacity ! old name was log_surf_opacity
       !log_surf_cell_P ! old name was log_surf_P
       !log_surf_cell_pressure ! old name was log_surf_pressure
       !log_surf_cell_density ! old name was log_surf_density

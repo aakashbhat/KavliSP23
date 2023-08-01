@@ -1,0 +1,1296 @@
+6: DATE: 2023-07-26
+6: TIME: 16:32:58
+3: DATE: 2023-07-26
+3: TIME: 16:32:58
+2: DATE: 2023-07-26
+2: TIME: 16:32:58
+0: DATE: 2023-07-26
+0: TIME: 16:32:58
+5: DATE: 2023-07-26
+5: TIME: 16:32:58
+1: DATE: 2023-07-26
+1: TIME: 16:32:58
+7: DATE: 2023-07-26
+7: TIME: 16:32:58
+4: DATE: 2023-07-26
+4: TIME: 16:32:58
+5:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+6:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+2:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+7:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+4:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+1:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+3:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+0:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+0:  version_number r23.05.1
+2:  version_number r23.05.1
+4:  version_number r23.05.1
+5:  version_number r23.05.1
+6:  version_number r23.05.1
+7:  version_number r23.05.1
+1:  version_number r23.05.1
+3:  version_number r23.05.1
+0:  read inlist_project
+3:  read inlist_project
+5:  read inlist_project
+6:  read inlist_project
+7:  read inlist_project
+2:  read inlist_project
+1:  read inlist_project
+4:  read inlist_project
+3: load saved model relaxed_064_fe56_co56_ni56.mod
+3: 
+7: load saved model relaxed_064_fe56_co56_ni56.mod
+7: 
+0: load saved model relaxed_064_fe56_co56_ni56.mod
+0: 
+6: load saved model relaxed_064_fe56_co56_ni56.mod
+6: 
+5: load saved model relaxed_064_fe56_co56_ni56.mod
+5: 
+2: load saved model relaxed_064_fe56_co56_ni56.mod
+2: 
+1: load saved model relaxed_064_fe56_co56_ni56.mod
+1: 
+4: load saved model relaxed_064_fe56_co56_ni56.mod
+4: 
+0:  change to "approx21_plus_co56.net"
+0:  number of species          22
+6:  change to "approx21_plus_co56.net"
+7:  change to "approx21_plus_co56.net"
+7:  number of species          22
+6:  number of species          22
+4:  change to "approx21_plus_co56.net"
+4:  number of species          22
+2:  change to "approx21_plus_co56.net"
+2:  number of species          22
+5:  change to "approx21_plus_co56.net"
+5:  number of species          22
+7:                                         set_initial_age    0.0000000000000000D+00
+0:                                         set_initial_age    0.0000000000000000D+00
+4:                                         set_initial_age    0.0000000000000000D+00
+2:                                         set_initial_age    0.0000000000000000D+00
+0:                                                 set_age    0.0000000000000000D+00
+0:                                set_initial_model_number           0
+0:                              set_initial_number_retries           0
+2:                                                 set_age    0.0000000000000000D+00
+2:                                set_initial_model_number           0
+2:                              set_initial_number_retries           0
+2:  net name approx21_plus_co56.net
+4:                                                 set_age    0.0000000000000000D+00
+4:                                set_initial_model_number           0
+4:                              set_initial_number_retries           0
+4:  net name approx21_plus_co56.net
+4:                                         eps_mdot_factor    0.0000000000000000D+00
+4:  net reactions 
+4: 
+7:                                                 set_age    0.0000000000000000D+00
+0:  net name approx21_plus_co56.net
+0:                                         eps_mdot_factor    0.0000000000000000D+00
+0:  net reactions 
+0: 
+0:                               name          Qtotal            Qneu        category    info                  source
+0:    1                r_ar36_ag_ca40        7.039651                      ar_alpha                ar36(a,g)ca40                                         
+0:    2                r_ca40_ga_ar36       -7.039651                         photo               ca40(g,a)ar36                                          
+0:    3                  r_c12_ag_o16        7.161917                       c_alpha                c12(a,g)o16                                           
+2:                                         eps_mdot_factor    0.0000000000000000D+00
+2:  net reactions 
+2: 
+2:                               name          Qtotal            Qneu        category    info                  source
+2:    1                r_ar36_ag_ca40        7.039651                      ar_alpha                ar36(a,g)ca40                                         
+2:    2                r_ca40_ga_ar36       -7.039651                         photo               ca40(g,a)ar36                                          
+2:    3                  r_c12_ag_o16        7.161917                       c_alpha                c12(a,g)o16                                           
+2:    4                  r_o16_ga_c12       -7.161917                         photo               o16(g,a)c12                                            
+2:    5                r_ca40_ag_ti44        5.127100                      ca_alpha                ca40(a,g)ti44                                         
+2:    6                r_ti44_ga_ca40       -5.127100                         photo               ti44(g,a)ca40                                          
+2:    7                r_cr48_ag_fe52        7.937351                      cr_alpha                cr48(a,g)fe52                                         
+2:    8                r_fe52_ga_cr48       -7.937351                         photo               fe52(g,a)cr48                                          
+4:                               name          Qtotal            Qneu        category    info                  source
+4:    1                r_ar36_ag_ca40        7.039651                      ar_alpha                ar36(a,g)ca40                                         
+4:    2                r_ca40_ga_ar36       -7.039651                         photo               ca40(g,a)ar36                                          
+4:    3                  r_c12_ag_o16        7.161917                       c_alpha                c12(a,g)o16                                           
+4:    4                  r_o16_ga_c12       -7.161917                         photo               o16(g,a)c12                                            
+4:    5                r_ca40_ag_ti44        5.127100                      ca_alpha                ca40(a,g)ti44                                         
+4:    6                r_ti44_ga_ca40       -5.127100                         photo               ti44(g,a)ca40                                          
+4:    7                r_cr48_ag_fe52        7.937351                      cr_alpha                cr48(a,g)fe52                                         
+4:    8                r_fe52_ga_cr48       -7.937351                         photo               fe52(g,a)cr48                                          
+4:    9                r_fe52_ag_ni56        7.996975                      fe_co_ni                fe52(a,g)ni56                                         
+4:   10                r_ni56_ga_fe52       -7.996975                         photo               ni56(g,a)fe52                                          
+4:   11                r_mg24_ag_si28        9.984145                      mg_alpha                mg24(a,g)si28                                         
+4:   12                r_si28_ga_mg24       -9.984145                         photo               si28(g,a)mg24                                          
+4:   13                r_ne20_ag_mg24        9.316551                      ne_alpha                ne20(a,g)mg24                                         
+4:   14                r_mg24_ga_ne20       -9.316551                         photo               mg24(g,a)ne20                                          
+4:   15                 r_o16_ag_ne20        4.729846                       o_alpha                o16(a,g)ne20                                          
+4:   16                 r_ne20_ga_o16       -4.729846                         photo               ne20(g,a)o16                                           
+0:    4                  r_o16_ga_c12       -7.161917                         photo               o16(g,a)c12                                            
+0:    5                r_ca40_ag_ti44        5.127100                      ca_alpha                ca40(a,g)ti44                                         
+0:    6                r_ti44_ga_ca40       -5.127100                         photo               ti44(g,a)ca40                                          
+0:    7                r_cr48_ag_fe52        7.937351                      cr_alpha                cr48(a,g)fe52                                         
+0:    8                r_fe52_ga_cr48       -7.937351                         photo               fe52(g,a)cr48                                          
+0:    9                r_fe52_ag_ni56        7.996975                      fe_co_ni                fe52(a,g)ni56                                         
+0:   10                r_ni56_ga_fe52       -7.996975                         photo               ni56(g,a)fe52                                          
+0:   11                r_mg24_ag_si28        9.984145                      mg_alpha                mg24(a,g)si28                                         
+0:   12                r_si28_ga_mg24       -9.984145                         photo               si28(g,a)mg24                                          
+0:   13                r_ne20_ag_mg24        9.316551                      ne_alpha                ne20(a,g)mg24                                         
+0:   14                r_mg24_ga_ne20       -9.316551                         photo               mg24(g,a)ne20                                          
+0:   15                 r_o16_ag_ne20        4.729846                       o_alpha                o16(a,g)ne20                                          
+0:   16                 r_ne20_ga_o16       -4.729846                         photo               ne20(g,a)o16                                           
+0:   17                 r_s32_ag_ar36        6.640759                       s_alpha                s32(a,g)ar36                                          
+0:   18                 r_ar36_ga_s32       -6.640759                         photo               ar36(g,a)s32                                           
+0:   19                 r_si28_ag_s32        6.947816                      si_alpha                si28(a,g)s32                                          
+0:   20                 r_s32_ga_si28       -6.947816                         photo               s32(g,a)si28                                           
+0:   21                r_ti44_ag_cr48        7.695637                      ti_alpha                ti44(a,g)cr48                                         
+0:   22                r_cr48_ga_ti44       -7.695637                         photo               cr48(g,a)ti44                                          
+0:   23          r_c12_to_he4_he4_he4       -7.274747                         photo               c12 => 3 he4                                           
+0:   24          r_he4_he4_he4_to_c12        7.274747                     tri_alpha                triple alpha                                          
+0:   25                  r_c12_pg_n13        1.943489                           cno               c12(p,g)n13                                            
+0:   26                         r1216        6.771650                       c12_o16               c12 + o16 -> mg24 + he4                                
+0:   27                         r1616        9.593878                       o16_o16               o16+o16 => a + si28, a and p                           
+0:   28                r_ca40_ap_sc43       -3.522401                      ca_alpha                ca40(a,p)sc43                                         
+0:   29                 r_ca40_gp_k39       -8.328235                         photo               ca40(g,p)k39                                           
+0:   30                 r_cl35_pa_s32        1.866212                       s_alpha                cl35(p,a)s32                                          
+2:    9                r_fe52_ag_ni56        7.996975                      fe_co_ni                fe52(a,g)ni56                                         
+2:   10                r_ni56_ga_fe52       -7.996975                         photo               ni56(g,a)fe52                                          
+2:   11                r_mg24_ag_si28        9.984145                      mg_alpha                mg24(a,g)si28                                         
+2:   12                r_si28_ga_mg24       -9.984145                         photo               si28(g,a)mg24                                          
+2:   13                r_ne20_ag_mg24        9.316551                      ne_alpha                ne20(a,g)mg24                                         
+2:   14                r_mg24_ga_ne20       -9.316551                         photo               mg24(g,a)ne20                                          
+2:   15                 r_o16_ag_ne20        4.729846                       o_alpha                o16(a,g)ne20                                          
+2:   16                 r_ne20_ga_o16       -4.729846                         photo               ne20(g,a)o16                                           
+2:   17                 r_s32_ag_ar36        6.640759                       s_alpha                s32(a,g)ar36                                          
+2:   18                 r_ar36_ga_s32       -6.640759                         photo               ar36(g,a)s32                                           
+2:   19                 r_si28_ag_s32        6.947816                      si_alpha                si28(a,g)s32                                          
+2:   20                 r_s32_ga_si28       -6.947816                         photo               s32(g,a)si28                                           
+2:   21                r_ti44_ag_cr48        7.695637                      ti_alpha                ti44(a,g)cr48                                         
+2:   22                r_cr48_ga_ti44       -7.695637                         photo               cr48(g,a)ti44                                          
+2:   23          r_c12_to_he4_he4_he4       -7.274747                         photo               c12 => 3 he4                                           
+2:   24          r_he4_he4_he4_to_c12        7.274747                     tri_alpha                triple alpha                                          
+2:   25                  r_c12_pg_n13        1.943489                           cno               c12(p,g)n13                                            
+2:   26                         r1216        6.771650                       c12_o16               c12 + o16 -> mg24 + he4                                
+2:   27                         r1616        9.593878                       o16_o16               o16+o16 => a + si28, a and p                           
+2:   28                r_ca40_ap_sc43       -3.522401                      ca_alpha                ca40(a,p)sc43                                         
+2:   29                 r_ca40_gp_k39       -8.328235                         photo               ca40(g,p)k39                                           
+2:   30                 r_cl35_pa_s32        1.866212                       s_alpha                cl35(p,a)s32                                          
+2:   31                r_cl35_pg_ar36        8.506971                       s_alpha                cl35(p,g)ar36                                         
+2:   32                r_co55_gp_fe54       -5.064072                         photo               co55(g,p)fe54                                          
+2:   33                r_co55_pa_fe52       -0.831887                      fe_co_ni                co55(p,a)fe52                                         
+2:   34                r_co55_pg_ni56        7.165088                      fe_co_ni                co55(p,g)ni56                                         
+2:   35                r_co57_gp_fe56       -6.027823                         photo               co57(g,p)fe56                                          
+4:   17                 r_s32_ag_ar36        6.640759                       s_alpha                s32(a,g)ar36                                          
+4:   18                 r_ar36_ga_s32       -6.640759                         photo               ar36(g,a)s32                                           
+4:   19                 r_si28_ag_s32        6.947816                      si_alpha                si28(a,g)s32                                          
+4:   20                 r_s32_ga_si28       -6.947816                         photo               s32(g,a)si28                                           
+4:   21                r_ti44_ag_cr48        7.695637                      ti_alpha                ti44(a,g)cr48                                         
+4:   22                r_cr48_ga_ti44       -7.695637                         photo               cr48(g,a)ti44                                          
+4:   23          r_c12_to_he4_he4_he4       -7.274747                         photo               c12 => 3 he4                                           
+4:   24          r_he4_he4_he4_to_c12        7.274747                     tri_alpha                triple alpha                                          
+4:   25                  r_c12_pg_n13        1.943489                           cno               c12(p,g)n13                                            
+4:   26                         r1216        6.771650                       c12_o16               c12 + o16 -> mg24 + he4                                
+4:   27                         r1616        9.593878                       o16_o16               o16+o16 => a + si28, a and p                           
+4:   28                r_ca40_ap_sc43       -3.522401                      ca_alpha                ca40(a,p)sc43                                         
+4:   29                 r_ca40_gp_k39       -8.328235                         photo               ca40(g,p)k39                                           
+4:   30                 r_cl35_pa_s32        1.866212                       s_alpha                cl35(p,a)s32                                          
+4:   31                r_cl35_pg_ar36        8.506971                       s_alpha                cl35(p,g)ar36                                         
+4:   32                r_co55_gp_fe54       -5.064072                         photo               co55(g,p)fe54                                          
+4:   33                r_co55_pa_fe52       -0.831887                      fe_co_ni                co55(p,a)fe52                                         
+4:   34                r_co55_pg_ni56        7.165088                      fe_co_ni                co55(p,g)ni56                                         
+4:   35                r_co57_gp_fe56       -6.027823                         photo               co57(g,p)fe56                                          
+4:   36                r_co57_pa_fe54        1.772307                      fe_co_ni                co57(p,a)fe54                                         
+4:   37                r_al27_pa_mg24        1.600964                         photo               al27(p,a)mg24                                          
+4:   38                r_cr48_ap_mn51        0.558106                      cr_alpha                cr48(a,p)mn51                                         
+4:   39                 r_cr48_gp_v47       -8.106100                         photo               cr48(g,p)v47                                           
+4:   40                r_al27_pg_si28       11.585109                      mg_alpha                al27(p,g)si28                                         
+4:   41                r_fe52_ap_co55        0.831887                      fe_co_ni                fe52(a,p)co55                                         
+4:   42                r_fe52_gp_mn51       -7.379245                         photo               fe52(g,p)mn51                                          
+4:   43                r_fe52_ng_fe53       10.685025                      fe_co_ni                fe52(n,g)fe53                                         
+5:                                         set_initial_age    0.0000000000000000D+00
+5:                                                 set_age    0.0000000000000000D+00
+5:                                set_initial_model_number           0
+5:                              set_initial_number_retries           0
+5:  net name approx21_plus_co56.net
+5:                                         eps_mdot_factor    0.0000000000000000D+00
+5:  net reactions 
+5: 
+5:                               name          Qtotal            Qneu        category    info                  source
+5:    1                r_ar36_ag_ca40        7.039651                      ar_alpha                ar36(a,g)ca40                                         
+5:    2                r_ca40_ga_ar36       -7.039651                         photo               ca40(g,a)ar36                                          
+5:    3                  r_c12_ag_o16        7.161917                       c_alpha                c12(a,g)o16                                           
+5:    4                  r_o16_ga_c12       -7.161917                         photo               o16(g,a)c12                                            
+5:    5                r_ca40_ag_ti44        5.127100                      ca_alpha                ca40(a,g)ti44                                         
+5:    6                r_ti44_ga_ca40       -5.127100                         photo               ti44(g,a)ca40                                          
+5:    7                r_cr48_ag_fe52        7.937351                      cr_alpha                cr48(a,g)fe52                                         
+5:    8                r_fe52_ga_cr48       -7.937351                         photo               fe52(g,a)cr48                                          
+5:    9                r_fe52_ag_ni56        7.996975                      fe_co_ni                fe52(a,g)ni56                                         
+5:   10                r_ni56_ga_fe52       -7.996975                         photo               ni56(g,a)fe52                                          
+5:   11                r_mg24_ag_si28        9.984145                      mg_alpha                mg24(a,g)si28                                         
+5:   12                r_si28_ga_mg24       -9.984145                         photo               si28(g,a)mg24                                          
+5:   13                r_ne20_ag_mg24        9.316551                      ne_alpha                ne20(a,g)mg24                                         
+5:   14                r_mg24_ga_ne20       -9.316551                         photo               mg24(g,a)ne20                                          
+5:   15                 r_o16_ag_ne20        4.729846                       o_alpha                o16(a,g)ne20                                          
+5:   16                 r_ne20_ga_o16       -4.729846                         photo               ne20(g,a)o16                                           
+5:   17                 r_s32_ag_ar36        6.640759                       s_alpha                s32(a,g)ar36                                          
+5:   18                 r_ar36_ga_s32       -6.640759                         photo               ar36(g,a)s32                                           
+5:   19                 r_si28_ag_s32        6.947816                      si_alpha                si28(a,g)s32                                          
+5:   20                 r_s32_ga_si28       -6.947816                         photo               s32(g,a)si28                                           
+5:   21                r_ti44_ag_cr48        7.695637                      ti_alpha                ti44(a,g)cr48                                         
+5:   22                r_cr48_ga_ti44       -7.695637                         photo               cr48(g,a)ti44                                          
+5:   23          r_c12_to_he4_he4_he4       -7.274747                         photo               c12 => 3 he4                                           
+6:                                         set_initial_age    0.0000000000000000D+00
+6:                                                 set_age    0.0000000000000000D+00
+6:                                set_initial_model_number           0
+6:                              set_initial_number_retries           0
+6:  net name approx21_plus_co56.net
+6:                                         eps_mdot_factor    0.0000000000000000D+00
+6:  net reactions 
+6: 
+6:                               name          Qtotal            Qneu        category    info                  source
+6:    1                r_ar36_ag_ca40        7.039651                      ar_alpha                ar36(a,g)ca40                                         
+6:    2                r_ca40_ga_ar36       -7.039651                         photo               ca40(g,a)ar36                                          
+6:    3                  r_c12_ag_o16        7.161917                       c_alpha                c12(a,g)o16                                           
+6:    4                  r_o16_ga_c12       -7.161917                         photo               o16(g,a)c12                                            
+6:    5                r_ca40_ag_ti44        5.127100                      ca_alpha                ca40(a,g)ti44                                         
+6:    6                r_ti44_ga_ca40       -5.127100                         photo               ti44(g,a)ca40                                          
+6:    7                r_cr48_ag_fe52        7.937351                      cr_alpha                cr48(a,g)fe52                                         
+6:    8                r_fe52_ga_cr48       -7.937351                         photo               fe52(g,a)cr48                                          
+6:    9                r_fe52_ag_ni56        7.996975                      fe_co_ni                fe52(a,g)ni56                                         
+6:   10                r_ni56_ga_fe52       -7.996975                         photo               ni56(g,a)fe52                                          
+6:   11                r_mg24_ag_si28        9.984145                      mg_alpha                mg24(a,g)si28                                         
+6:   12                r_si28_ga_mg24       -9.984145                         photo               si28(g,a)mg24                                          
+6:   13                r_ne20_ag_mg24        9.316551                      ne_alpha                ne20(a,g)mg24                                         
+6:   14                r_mg24_ga_ne20       -9.316551                         photo               mg24(g,a)ne20                                          
+6:   15                 r_o16_ag_ne20        4.729846                       o_alpha                o16(a,g)ne20                                          
+6:   16                 r_ne20_ga_o16       -4.729846                         photo               ne20(g,a)o16                                           
+6:   17                 r_s32_ag_ar36        6.640759                       s_alpha                s32(a,g)ar36                                          
+6:   18                 r_ar36_ga_s32       -6.640759                         photo               ar36(g,a)s32                                           
+6:   19                 r_si28_ag_s32        6.947816                      si_alpha                si28(a,g)s32                                          
+6:   20                 r_s32_ga_si28       -6.947816                         photo               s32(g,a)si28                                           
+6:   21                r_ti44_ag_cr48        7.695637                      ti_alpha                ti44(a,g)cr48                                         
+6:   22                r_cr48_ga_ti44       -7.695637                         photo               cr48(g,a)ti44                                          
+6:   23          r_c12_to_he4_he4_he4       -7.274747                         photo               c12 => 3 he4                                           
+0:   31                r_cl35_pg_ar36        8.506971                       s_alpha                cl35(p,g)ar36                                         
+0:   32                r_co55_gp_fe54       -5.064072                         photo               co55(g,p)fe54                                          
+0:   33                r_co55_pa_fe52       -0.831887                      fe_co_ni                co55(p,a)fe52                                         
+0:   34                r_co55_pg_ni56        7.165088                      fe_co_ni                co55(p,g)ni56                                         
+0:   35                r_co57_gp_fe56       -6.027823                         photo               co57(g,p)fe56                                          
+0:   36                r_co57_pa_fe54        1.772307                      fe_co_ni                co57(p,a)fe54                                         
+0:   37                r_al27_pa_mg24        1.600964                         photo               al27(p,a)mg24                                          
+0:   38                r_cr48_ap_mn51        0.558106                      cr_alpha                cr48(a,p)mn51                                         
+0:   39                 r_cr48_gp_v47       -8.106100                         photo               cr48(g,p)v47                                           
+0:   40                r_al27_pg_si28       11.585109                      mg_alpha                al27(p,g)si28                                         
+0:   41                r_fe52_ap_co55        0.831887                      fe_co_ni                fe52(a,p)co55                                         
+0:   42                r_fe52_gp_mn51       -7.379245                         photo               fe52(g,p)mn51                                          
+0:   43                r_fe52_ng_fe53       10.685025                      fe_co_ni                fe52(n,g)fe53                                         
+0:   44                r_fe53_gn_fe52      -10.685025                         photo               fe53(g,n)fe52                                          
+0:   45                r_fe53_ng_fe54       13.378450                      fe_co_ni                fe53(n,g)fe54                                         
+0:   46                r_fe54_ap_co57       -1.772307                      fe_co_ni                fe54(a,p)co57                                         
+0:   47                r_fe54_gn_fe53      -13.378450                         photo               fe54(g,n)fe53                                          
+0:   48                r_fe54_ng_fe55        9.298229                      fe_co_ni                fe54(n,g)fe55                                         
+0:   49                r_fe54_pg_co55        5.064072                      fe_co_ni                fe54(p,g)co55                                         
+0:   50                r_fe55_gn_fe54       -9.298229                         photo               fe55(g,n)fe54                                          
+0:   51                r_fe55_ng_fe56       11.197301                      fe_co_ni                fe55(n,g)fe56                                         
+0:   52                r_fe56_gn_fe55      -11.197301                         photo               fe56(g,n)fe55                                          
+0:   53                r_fe56_pg_co57        6.027823                      fe_co_ni                fe56(p,g)co57                                         
+0:   54                    r_h1_ng_h2        2.224566                         other               h1(n,g)h2                                              
+0:   55                    r_h2_gn_h1       -2.224566                         photo               h2(g,n)h1                                              
+0:   56                   r_h2_pg_he3        5.493477                            pp               h2(p,g)he3                                             
+0:   57                  r_he3_ag_be7        1.586096                            pp               he4(he3,g)be7                                          
+2:   36                r_co57_pa_fe54        1.772307                      fe_co_ni                co57(p,a)fe54                                         
+2:   37                r_al27_pa_mg24        1.600964                         photo               al27(p,a)mg24                                          
+2:   38                r_cr48_ap_mn51        0.558106                      cr_alpha                cr48(a,p)mn51                                         
+2:   39                 r_cr48_gp_v47       -8.106100                         photo               cr48(g,p)v47                                           
+2:   40                r_al27_pg_si28       11.585109                      mg_alpha                al27(p,g)si28                                         
+2:   41                r_fe52_ap_co55        0.831887                      fe_co_ni                fe52(a,p)co55                                         
+2:   42                r_fe52_gp_mn51       -7.379245                         photo               fe52(g,p)mn51                                          
+2:   43                r_fe52_ng_fe53       10.685025                      fe_co_ni                fe52(n,g)fe53                                         
+2:   44                r_fe53_gn_fe52      -10.685025                         photo               fe53(g,n)fe52                                          
+2:   45                r_fe53_ng_fe54       13.378450                      fe_co_ni                fe53(n,g)fe54                                         
+2:   46                r_fe54_ap_co57       -1.772307                      fe_co_ni                fe54(a,p)co57                                         
+2:   47                r_fe54_gn_fe53      -13.378450                         photo               fe54(g,n)fe53                                          
+2:   48                r_fe54_ng_fe55        9.298229                      fe_co_ni                fe54(n,g)fe55                                         
+2:   49                r_fe54_pg_co55        5.064072                      fe_co_ni                fe54(p,g)co55                                         
+2:   50                r_fe55_gn_fe54       -9.298229                         photo               fe55(g,n)fe54                                          
+2:   51                r_fe55_ng_fe56       11.197301                      fe_co_ni                fe55(n,g)fe56                                         
+2:   52                r_fe56_gn_fe55      -11.197301                         photo               fe56(g,n)fe55                                          
+2:   53                r_fe56_pg_co57        6.027823                      fe_co_ni                fe56(p,g)co57                                         
+2:   54                    r_h1_ng_h2        2.224566                         other               h1(n,g)h2                                              
+2:   55                    r_h2_gn_h1       -2.224566                         photo               h2(g,n)h1                                              
+2:   56                   r_h2_pg_he3        5.493477                            pp               h2(p,g)he3                                             
+2:   57                  r_he3_ag_be7        1.586096                            pp               he4(he3,g)be7                                          
+2:   58                   r_he3_gp_h2       -5.493477                         photo               he3(g,p)h2                                             
+2:   59        r_he3_he3_to_h1_h1_he4       12.859573                            pp               2 he3 => 2 p + he4                                     
+2:   60                  r_he3_ng_he4       20.577616                         other               he3(n,g)he4                                            
+2:   61                  r_he4_gn_he3      -20.577616                         photo               he4(g,n)he3                                            
+2:   62                 r_k39_pa_ar36        1.288584                      ar_alpha                k39(p,a)ar36                                          
+4:   44                r_fe53_gn_fe52      -10.685025                         photo               fe53(g,n)fe52                                          
+4:   45                r_fe53_ng_fe54       13.378450                      fe_co_ni                fe53(n,g)fe54                                         
+4:   46                r_fe54_ap_co57       -1.772307                      fe_co_ni                fe54(a,p)co57                                         
+4:   47                r_fe54_gn_fe53      -13.378450                         photo               fe54(g,n)fe53                                          
+4:   48                r_fe54_ng_fe55        9.298229                      fe_co_ni                fe54(n,g)fe55                                         
+4:   49                r_fe54_pg_co55        5.064072                      fe_co_ni                fe54(p,g)co55                                         
+4:   50                r_fe55_gn_fe54       -9.298229                         photo               fe55(g,n)fe54                                          
+4:   51                r_fe55_ng_fe56       11.197301                      fe_co_ni                fe55(n,g)fe56                                         
+4:   52                r_fe56_gn_fe55      -11.197301                         photo               fe56(g,n)fe55                                          
+4:   53                r_fe56_pg_co57        6.027823                      fe_co_ni                fe56(p,g)co57                                         
+4:   54                    r_h1_ng_h2        2.224566                         other               h1(n,g)h2                                              
+4:   55                    r_h2_gn_h1       -2.224566                         photo               h2(g,n)h1                                              
+4:   56                   r_h2_pg_he3        5.493477                            pp               h2(p,g)he3                                             
+4:   57                  r_he3_ag_be7        1.586096                            pp               he4(he3,g)be7                                          
+4:   58                   r_he3_gp_h2       -5.493477                         photo               he3(g,p)h2                                             
+4:   59        r_he3_he3_to_h1_h1_he4       12.859573                            pp               2 he3 => 2 p + he4                                     
+4:   60                  r_he3_ng_he4       20.577616                         other               he3(n,g)he4                                            
+4:   61                  r_he4_gn_he3      -20.577616                         photo               he4(g,n)he3                                            
+4:   62                 r_k39_pa_ar36        1.288584                      ar_alpha                k39(p,a)ar36                                          
+4:   63                 r_k39_pg_ca40        8.328235                      ar_alpha                k39(p,g)ca40                                          
+4:   64                         r1212        4.617016                       c12_c12               c12 + c12 -> ne20 + he4; rate includes                 
+4:   65                r_mg24_ap_al27       -1.600964                      mg_alpha                mg24(a,p)al27                                         
+4:   66                r_mn51_pa_cr48       -0.558106                      cr_alpha                mn51(p,a)cr48                                         
+4:   67                r_mn51_pg_fe52        7.379245                      cr_alpha                mn51(p,g)fe52                                         
+4:   68                  r_n14_ag_f18        4.414632                       n_alpha                n14(a,g)f18                                           
+4:   69                  r_n14_pg_o15        7.296783                           cno               n14(p,g)o15                                            
+4:   70                  r_n15_pa_c12        4.965493                           cno               n15(p,a)c12                                            
+5:   24          r_he4_he4_he4_to_c12        7.274747                     tri_alpha                triple alpha                                          
+5:   25                  r_c12_pg_n13        1.943489                           cno               c12(p,g)n13                                            
+5:   26                         r1216        6.771650                       c12_o16               c12 + o16 -> mg24 + he4                                
+5:   27                         r1616        9.593878                       o16_o16               o16+o16 => a + si28, a and p                           
+5:   28                r_ca40_ap_sc43       -3.522401                      ca_alpha                ca40(a,p)sc43                                         
+5:   29                 r_ca40_gp_k39       -8.328235                         photo               ca40(g,p)k39                                           
+5:   30                 r_cl35_pa_s32        1.866212                       s_alpha                cl35(p,a)s32                                          
+5:   31                r_cl35_pg_ar36        8.506971                       s_alpha                cl35(p,g)ar36                                         
+5:   32                r_co55_gp_fe54       -5.064072                         photo               co55(g,p)fe54                                          
+5:   33                r_co55_pa_fe52       -0.831887                      fe_co_ni                co55(p,a)fe52                                         
+5:   34                r_co55_pg_ni56        7.165088                      fe_co_ni                co55(p,g)ni56                                         
+5:   35                r_co57_gp_fe56       -6.027823                         photo               co57(g,p)fe56                                          
+5:   36                r_co57_pa_fe54        1.772307                      fe_co_ni                co57(p,a)fe54                                         
+5:   37                r_al27_pa_mg24        1.600964                         photo               al27(p,a)mg24                                          
+5:   38                r_cr48_ap_mn51        0.558106                      cr_alpha                cr48(a,p)mn51                                         
+5:   39                 r_cr48_gp_v47       -8.106100                         photo               cr48(g,p)v47                                           
+5:   40                r_al27_pg_si28       11.585109                      mg_alpha                al27(p,g)si28                                         
+5:   41                r_fe52_ap_co55        0.831887                      fe_co_ni                fe52(a,p)co55                                         
+5:   42                r_fe52_gp_mn51       -7.379245                         photo               fe52(g,p)mn51                                          
+5:   43                r_fe52_ng_fe53       10.685025                      fe_co_ni                fe52(n,g)fe53                                         
+5:   44                r_fe53_gn_fe52      -10.685025                         photo               fe53(g,n)fe52                                          
+5:   45                r_fe53_ng_fe54       13.378450                      fe_co_ni                fe53(n,g)fe54                                         
+5:   46                r_fe54_ap_co57       -1.772307                      fe_co_ni                fe54(a,p)co57                                         
+5:   47                r_fe54_gn_fe53      -13.378450                         photo               fe54(g,n)fe53                                          
+5:   48                r_fe54_ng_fe55        9.298229                      fe_co_ni                fe54(n,g)fe55                                         
+5:   49                r_fe54_pg_co55        5.064072                      fe_co_ni                fe54(p,g)co55                                         
+5:   50                r_fe55_gn_fe54       -9.298229                         photo               fe55(g,n)fe54                                          
+6:   24          r_he4_he4_he4_to_c12        7.274747                     tri_alpha                triple alpha                                          
+6:   25                  r_c12_pg_n13        1.943489                           cno               c12(p,g)n13                                            
+6:   26                         r1216        6.771650                       c12_o16               c12 + o16 -> mg24 + he4                                
+6:   27                         r1616        9.593878                       o16_o16               o16+o16 => a + si28, a and p                           
+6:   28                r_ca40_ap_sc43       -3.522401                      ca_alpha                ca40(a,p)sc43                                         
+6:   29                 r_ca40_gp_k39       -8.328235                         photo               ca40(g,p)k39                                           
+6:   30                 r_cl35_pa_s32        1.866212                       s_alpha                cl35(p,a)s32                                          
+6:   31                r_cl35_pg_ar36        8.506971                       s_alpha                cl35(p,g)ar36                                         
+6:   32                r_co55_gp_fe54       -5.064072                         photo               co55(g,p)fe54                                          
+6:   33                r_co55_pa_fe52       -0.831887                      fe_co_ni                co55(p,a)fe52                                         
+6:   34                r_co55_pg_ni56        7.165088                      fe_co_ni                co55(p,g)ni56                                         
+6:   35                r_co57_gp_fe56       -6.027823                         photo               co57(g,p)fe56                                          
+6:   36                r_co57_pa_fe54        1.772307                      fe_co_ni                co57(p,a)fe54                                         
+6:   37                r_al27_pa_mg24        1.600964                         photo               al27(p,a)mg24                                          
+6:   38                r_cr48_ap_mn51        0.558106                      cr_alpha                cr48(a,p)mn51                                         
+6:   39                 r_cr48_gp_v47       -8.106100                         photo               cr48(g,p)v47                                           
+6:   40                r_al27_pg_si28       11.585109                      mg_alpha                al27(p,g)si28                                         
+6:   41                r_fe52_ap_co55        0.831887                      fe_co_ni                fe52(a,p)co55                                         
+6:   42                r_fe52_gp_mn51       -7.379245                         photo               fe52(g,p)mn51                                          
+6:   43                r_fe52_ng_fe53       10.685025                      fe_co_ni                fe52(n,g)fe53                                         
+6:   44                r_fe53_gn_fe52      -10.685025                         photo               fe53(g,n)fe52                                          
+6:   45                r_fe53_ng_fe54       13.378450                      fe_co_ni                fe53(n,g)fe54                                         
+6:   46                r_fe54_ap_co57       -1.772307                      fe_co_ni                fe54(a,p)co57                                         
+6:   47                r_fe54_gn_fe53      -13.378450                         photo               fe54(g,n)fe53                                          
+6:   48                r_fe54_ng_fe55        9.298229                      fe_co_ni                fe54(n,g)fe55                                         
+6:   49                r_fe54_pg_co55        5.064072                      fe_co_ni                fe54(p,g)co55                                         
+6:   50                r_fe55_gn_fe54       -9.298229                         photo               fe55(g,n)fe54                                          
+0:   58                   r_he3_gp_h2       -5.493477                         photo               he3(g,p)h2                                             
+0:   59        r_he3_he3_to_h1_h1_he4       12.859573                            pp               2 he3 => 2 p + he4                                     
+0:   60                  r_he3_ng_he4       20.577616                         other               he3(n,g)he4                                            
+0:   61                  r_he4_gn_he3      -20.577616                         photo               he4(g,n)he3                                            
+0:   62                 r_k39_pa_ar36        1.288584                      ar_alpha                k39(p,a)ar36                                          
+0:   63                 r_k39_pg_ca40        8.328235                      ar_alpha                k39(p,g)ca40                                          
+0:   64                         r1212        4.617016                       c12_c12               c12 + c12 -> ne20 + he4; rate includes                 
+0:   65                r_mg24_ap_al27       -1.600964                      mg_alpha                mg24(a,p)al27                                         
+0:   66                r_mn51_pa_cr48       -0.558106                      cr_alpha                mn51(p,a)cr48                                         
+0:   67                r_mn51_pg_fe52        7.379245                      cr_alpha                mn51(p,g)fe52                                         
+0:   68                  r_n14_ag_f18        4.414632                       n_alpha                n14(a,g)f18                                           
+0:   69                  r_n14_pg_o15        7.296783                           cno               n14(p,g)o15                                            
+0:   70                  r_n15_pa_c12        4.965493                           cno               n15(p,a)c12                                            
+0:   71                  r_n15_pg_o16       12.127410                           cno               n15(p,g)o16                                            
+0:   72                 r_ar36_ap_k39       -1.288584                      ar_alpha                ar36(a,p)k39                                          
+0:   73                r_ni56_gp_co55       -7.165088                         photo               ni56(g,p)co55                                          
+0:   74                  r_o16_pg_f17        0.600268                           cno               o16(p,g)f17                                            
+0:   75                 r_p31_pa_si28        1.915967                      si_alpha                p31(p,a)si28                                          
+0:   76                  r_p31_pg_s32        8.863783                      si_alpha                p31(p,g)s32                                           
+0:   77                r_ar36_gp_cl35       -8.506971                         photo               ar36(g,p)cl35                                          
+0:   78                 r_s32_ap_cl35       -1.866212                       s_alpha                s32(a,p)cl35                                          
+0:   79                  r_s32_gp_p31       -8.863783                         photo               s32(g,p)p31                                            
+0:   80                r_sc43_pa_ca40        3.522401                      ca_alpha                sc43(p,a)ca40                                         
+0:   81                r_sc43_pg_ti44        8.649500                      ca_alpha                sc43(p,g)ti44                                         
+0:   82                   r_be7_pg_b8        0.137515                            pp               be7(p,g)b8                                             
+0:   83                 r_si28_ap_p31       -1.915967                      si_alpha                si28(a,p)p31                                          
+0:   84                r_si28_gp_al27      -11.585109                         photo               si28(g,p)al27                                          
+2:   63                 r_k39_pg_ca40        8.328235                      ar_alpha                k39(p,g)ca40                                          
+2:   64                         r1212        4.617016                       c12_c12               c12 + c12 -> ne20 + he4; rate includes                 
+2:   65                r_mg24_ap_al27       -1.600964                      mg_alpha                mg24(a,p)al27                                         
+2:   66                r_mn51_pa_cr48       -0.558106                      cr_alpha                mn51(p,a)cr48                                         
+2:   67                r_mn51_pg_fe52        7.379245                      cr_alpha                mn51(p,g)fe52                                         
+2:   68                  r_n14_ag_f18        4.414632                       n_alpha                n14(a,g)f18                                           
+2:   69                  r_n14_pg_o15        7.296783                           cno               n14(p,g)o15                                            
+2:   70                  r_n15_pa_c12        4.965493                           cno               n15(p,a)c12                                            
+2:   71                  r_n15_pg_o16       12.127410                           cno               n15(p,g)o16                                            
+2:   72                 r_ar36_ap_k39       -1.288584                      ar_alpha                ar36(a,p)k39                                          
+2:   73                r_ni56_gp_co55       -7.165088                         photo               ni56(g,p)co55                                          
+2:   74                  r_o16_pg_f17        0.600268                           cno               o16(p,g)f17                                            
+2:   75                 r_p31_pa_si28        1.915967                      si_alpha                p31(p,a)si28                                          
+2:   76                  r_p31_pg_s32        8.863783                      si_alpha                p31(p,g)s32                                           
+2:   77                r_ar36_gp_cl35       -8.506971                         photo               ar36(g,p)cl35                                          
+2:   78                 r_s32_ap_cl35       -1.866212                       s_alpha                s32(a,p)cl35                                          
+2:   79                  r_s32_gp_p31       -8.863783                         photo               s32(g,p)p31                                            
+2:   80                r_sc43_pa_ca40        3.522401                      ca_alpha                sc43(p,a)ca40                                         
+2:   81                r_sc43_pg_ti44        8.649500                      ca_alpha                sc43(p,g)ti44                                         
+2:   82                   r_be7_pg_b8        0.137515                            pp               be7(p,g)b8                                             
+2:   83                 r_si28_ap_p31       -1.915967                      si_alpha                si28(a,p)p31                                          
+2:   84                r_si28_gp_al27      -11.585109                         photo               si28(g,p)al27                                          
+2:   85                  r_be7_wk_li7                weaklib                     pp               be7(e-,nu)li7                                          
+2:   86                 r_ti44_ap_v47       -0.410463                      ti_alpha                ti44(a,p)v47                                          
+2:   87                r_ti44_gp_sc43       -8.649500                         photo               ti44(g,p)sc43                                          
+2:   88                 r_v47_pa_ti44        0.410463                      ti_alpha                v47(p,a)ti44                                          
+2:   89                 r_v47_pg_cr48        8.106100                      ti_alpha                v47(p,g)cr48                                          
+4:   71                  r_n15_pg_o16       12.127410                           cno               n15(p,g)o16                                            
+4:   72                 r_ar36_ap_k39       -1.288584                      ar_alpha                ar36(a,p)k39                                          
+4:   73                r_ni56_gp_co55       -7.165088                         photo               ni56(g,p)co55                                          
+4:   74                  r_o16_pg_f17        0.600268                           cno               o16(p,g)f17                                            
+4:   75                 r_p31_pa_si28        1.915967                      si_alpha                p31(p,a)si28                                          
+4:   76                  r_p31_pg_s32        8.863783                      si_alpha                p31(p,g)s32                                           
+4:   77                r_ar36_gp_cl35       -8.506971                         photo               ar36(g,p)cl35                                          
+4:   78                 r_s32_ap_cl35       -1.866212                       s_alpha                s32(a,p)cl35                                          
+4:   79                  r_s32_gp_p31       -8.863783                         photo               s32(g,p)p31                                            
+4:   80                r_sc43_pa_ca40        3.522401                      ca_alpha                sc43(p,a)ca40                                         
+4:   81                r_sc43_pg_ti44        8.649500                      ca_alpha                sc43(p,g)ti44                                         
+4:   82                   r_be7_pg_b8        0.137515                            pp               be7(p,g)b8                                             
+4:   83                 r_si28_ap_p31       -1.915967                      si_alpha                si28(a,p)p31                                          
+4:   84                r_si28_gp_al27      -11.585109                         photo               si28(g,p)al27                                          
+4:   85                  r_be7_wk_li7                weaklib                     pp               be7(e-,nu)li7                                          
+4:   86                 r_ti44_ap_v47       -0.410463                      ti_alpha                ti44(a,p)v47                                          
+4:   87                r_ti44_gp_sc43       -8.649500                         photo               ti44(g,p)sc43                                          
+4:   88                 r_v47_pa_ti44        0.410463                      ti_alpha                v47(p,a)ti44                                          
+4:   89                 r_v47_pg_cr48        8.106100                      ti_alpha                v47(p,g)cr48                                          
+4:   90               rco56ec_to_fe56                weaklib                  other               co56 + e- => fe56                                      
+4:   91                 rneut_to_prot        0.782347                         other               neut(e+nu)prot                                         
+4:   92               rni56ec_to_co56                weaklib                  other               ni56 + e- => co56                                      
+4:   93                    rpp_to_he3        6.935697        0.266800            pp               p(p,e+nu)h2(p,g)he3                                    
+4:   94                 rprot_to_neut       -0.782347                         other               prot(e-nu)neut                                         
+4: 
+4:                             set_cumulative_energy_error    0.0000000000000000D+00
+4:  species
+4:      1   neut    
+4:      2   h1      
+4:      3   prot    
+4:      4   he3     
+4:      5   he4     
+4:      6   c12     
+4:      7   n14     
+4:      8   o16     
+4:      9   ne20    
+4:     10   mg24    
+4:     11   si28    
+4:     12   s32     
+4:     13   ar36    
+4:     14   ca40    
+4:     15   ti44    
+4:     16   cr48    
+4:     17   cr56    
+4:     18   fe52    
+4:     19   fe54    
+4:     20   fe56    
+4:     21   co56    
+5:   51                r_fe55_ng_fe56       11.197301                      fe_co_ni                fe55(n,g)fe56                                         
+5:   52                r_fe56_gn_fe55      -11.197301                         photo               fe56(g,n)fe55                                          
+5:   53                r_fe56_pg_co57        6.027823                      fe_co_ni                fe56(p,g)co57                                         
+5:   54                    r_h1_ng_h2        2.224566                         other               h1(n,g)h2                                              
+5:   55                    r_h2_gn_h1       -2.224566                         photo               h2(g,n)h1                                              
+5:   56                   r_h2_pg_he3        5.493477                            pp               h2(p,g)he3                                             
+5:   57                  r_he3_ag_be7        1.586096                            pp               he4(he3,g)be7                                          
+5:   58                   r_he3_gp_h2       -5.493477                         photo               he3(g,p)h2                                             
+5:   59        r_he3_he3_to_h1_h1_he4       12.859573                            pp               2 he3 => 2 p + he4                                     
+5:   60                  r_he3_ng_he4       20.577616                         other               he3(n,g)he4                                            
+5:   61                  r_he4_gn_he3      -20.577616                         photo               he4(g,n)he3                                            
+5:   62                 r_k39_pa_ar36        1.288584                      ar_alpha                k39(p,a)ar36                                          
+5:   63                 r_k39_pg_ca40        8.328235                      ar_alpha                k39(p,g)ca40                                          
+5:   64                         r1212        4.617016                       c12_c12               c12 + c12 -> ne20 + he4; rate includes                 
+5:   65                r_mg24_ap_al27       -1.600964                      mg_alpha                mg24(a,p)al27                                         
+5:   66                r_mn51_pa_cr48       -0.558106                      cr_alpha                mn51(p,a)cr48                                         
+5:   67                r_mn51_pg_fe52        7.379245                      cr_alpha                mn51(p,g)fe52                                         
+5:   68                  r_n14_ag_f18        4.414632                       n_alpha                n14(a,g)f18                                           
+5:   69                  r_n14_pg_o15        7.296783                           cno               n14(p,g)o15                                            
+5:   70                  r_n15_pa_c12        4.965493                           cno               n15(p,a)c12                                            
+5:   71                  r_n15_pg_o16       12.127410                           cno               n15(p,g)o16                                            
+5:   72                 r_ar36_ap_k39       -1.288584                      ar_alpha                ar36(a,p)k39                                          
+5:   73                r_ni56_gp_co55       -7.165088                         photo               ni56(g,p)co55                                          
+5:   74                  r_o16_pg_f17        0.600268                           cno               o16(p,g)f17                                            
+5:   75                 r_p31_pa_si28        1.915967                      si_alpha                p31(p,a)si28                                          
+5:   76                  r_p31_pg_s32        8.863783                      si_alpha                p31(p,g)s32                                           
+5:   77                r_ar36_gp_cl35       -8.506971                         photo               ar36(g,p)cl35                                          
+6:   51                r_fe55_ng_fe56       11.197301                      fe_co_ni                fe55(n,g)fe56                                         
+6:   52                r_fe56_gn_fe55      -11.197301                         photo               fe56(g,n)fe55                                          
+6:   53                r_fe56_pg_co57        6.027823                      fe_co_ni                fe56(p,g)co57                                         
+6:   54                    r_h1_ng_h2        2.224566                         other               h1(n,g)h2                                              
+6:   55                    r_h2_gn_h1       -2.224566                         photo               h2(g,n)h1                                              
+6:   56                   r_h2_pg_he3        5.493477                            pp               h2(p,g)he3                                             
+6:   57                  r_he3_ag_be7        1.586096                            pp               he4(he3,g)be7                                          
+6:   58                   r_he3_gp_h2       -5.493477                         photo               he3(g,p)h2                                             
+6:   59        r_he3_he3_to_h1_h1_he4       12.859573                            pp               2 he3 => 2 p + he4                                     
+6:   60                  r_he3_ng_he4       20.577616                         other               he3(n,g)he4                                            
+6:   61                  r_he4_gn_he3      -20.577616                         photo               he4(g,n)he3                                            
+6:   62                 r_k39_pa_ar36        1.288584                      ar_alpha                k39(p,a)ar36                                          
+6:   63                 r_k39_pg_ca40        8.328235                      ar_alpha                k39(p,g)ca40                                          
+6:   64                         r1212        4.617016                       c12_c12               c12 + c12 -> ne20 + he4; rate includes                 
+6:   65                r_mg24_ap_al27       -1.600964                      mg_alpha                mg24(a,p)al27                                         
+6:   66                r_mn51_pa_cr48       -0.558106                      cr_alpha                mn51(p,a)cr48                                         
+6:   67                r_mn51_pg_fe52        7.379245                      cr_alpha                mn51(p,g)fe52                                         
+6:   68                  r_n14_ag_f18        4.414632                       n_alpha                n14(a,g)f18                                           
+6:   69                  r_n14_pg_o15        7.296783                           cno               n14(p,g)o15                                            
+6:   70                  r_n15_pa_c12        4.965493                           cno               n15(p,a)c12                                            
+6:   71                  r_n15_pg_o16       12.127410                           cno               n15(p,g)o16                                            
+6:   72                 r_ar36_ap_k39       -1.288584                      ar_alpha                ar36(a,p)k39                                          
+6:   73                r_ni56_gp_co55       -7.165088                         photo               ni56(g,p)co55                                          
+6:   74                  r_o16_pg_f17        0.600268                           cno               o16(p,g)f17                                            
+6:   75                 r_p31_pa_si28        1.915967                      si_alpha                p31(p,a)si28                                          
+6:   76                  r_p31_pg_s32        8.863783                      si_alpha                p31(p,g)s32                                           
+6:   77                r_ar36_gp_cl35       -8.506971                         photo               ar36(g,p)cl35                                          
+0:   85                  r_be7_wk_li7                weaklib                     pp               be7(e-,nu)li7                                          
+0:   86                 r_ti44_ap_v47       -0.410463                      ti_alpha                ti44(a,p)v47                                          
+0:   87                r_ti44_gp_sc43       -8.649500                         photo               ti44(g,p)sc43                                          
+0:   88                 r_v47_pa_ti44        0.410463                      ti_alpha                v47(p,a)ti44                                          
+0:   89                 r_v47_pg_cr48        8.106100                      ti_alpha                v47(p,g)cr48                                          
+0:   90               rco56ec_to_fe56                weaklib                  other               co56 + e- => fe56                                      
+0:   91                 rneut_to_prot        0.782347                         other               neut(e+nu)prot                                         
+0:   92               rni56ec_to_co56                weaklib                  other               ni56 + e- => co56                                      
+0:   93                    rpp_to_he3        6.935697        0.266800            pp               p(p,e+nu)h2(p,g)he3                                    
+0:   94                 rprot_to_neut       -0.782347                         other               prot(e-nu)neut                                         
+0: 
+0:                             set_cumulative_energy_error    0.0000000000000000D+00
+0:  species
+0:      1   neut    
+0:      2   h1      
+0:      3   prot    
+0:      4   he3     
+0:      5   he4     
+0:      6   c12     
+0:      7   n14     
+0:      8   o16     
+0:      9   ne20    
+0:     10   mg24    
+0:     11   si28    
+0:     12   s32     
+0:     13   ar36    
+0:     14   ca40    
+0:     15   ti44    
+0:     16   cr48    
+0:     17   cr56    
+0:     18   fe52    
+0:     19   fe54    
+0:     20   fe56    
+0:     21   co56    
+0:     22   ni56    
+0: 
+0:  kap_option gs98
+0:  kap_CO_option gs98_co
+0:  kap_lowT_option lowT_fa05_gs98
+0:                                         OMP_NUM_THREADS           8
+0: 
+0: 
+0: __________________________________________________________________________________________________________________________________________________
+0: 
+0:        step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+0:   lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+0:     age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+0: __________________________________________________________________________________________________________________________________________________
+0: 
+2:   90               rco56ec_to_fe56                weaklib                  other               co56 + e- => fe56                                      
+2:   91                 rneut_to_prot        0.782347                         other               neut(e+nu)prot                                         
+2:   92               rni56ec_to_co56                weaklib                  other               ni56 + e- => co56                                      
+2:   93                    rpp_to_he3        6.935697        0.266800            pp               p(p,e+nu)h2(p,g)he3                                    
+2:   94                 rprot_to_neut       -0.782347                         other               prot(e-nu)neut                                         
+2: 
+2:                             set_cumulative_energy_error    0.0000000000000000D+00
+2:  species
+2:      1   neut    
+2:      2   h1      
+2:      3   prot    
+2:      4   he3     
+2:      5   he4     
+2:      6   c12     
+2:      7   n14     
+2:      8   o16     
+2:      9   ne20    
+2:     10   mg24    
+2:     11   si28    
+2:     12   s32     
+2:     13   ar36    
+2:     14   ca40    
+2:     15   ti44    
+2:     16   cr48    
+2:     17   cr56    
+2:     18   fe52    
+2:     19   fe54    
+2:     20   fe56    
+2:     21   co56    
+2:     22   ni56    
+2: 
+2:  kap_option gs98
+2:  kap_CO_option gs98_co
+2:  kap_lowT_option lowT_fa05_gs98
+2:                                         OMP_NUM_THREADS           8
+2: 
+2: 
+2: __________________________________________________________________________________________________________________________________________________
+2: 
+2:        step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+2:   lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+2:     age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+2: __________________________________________________________________________________________________________________________________________________
+2: 
+4:     22   ni56    
+4: 
+4:  kap_option gs98
+4:  kap_CO_option gs98_co
+4:  kap_lowT_option lowT_fa05_gs98
+4:                                         OMP_NUM_THREADS           8
+4: 
+4: 
+4: __________________________________________________________________________________________________________________________________________________
+4: 
+4:        step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+4:   lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+4:     age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+4: __________________________________________________________________________________________________________________________________________________
+4: 
+5:   78                 r_s32_ap_cl35       -1.866212                       s_alpha                s32(a,p)cl35                                          
+5:   79                  r_s32_gp_p31       -8.863783                         photo               s32(g,p)p31                                            
+5:   80                r_sc43_pa_ca40        3.522401                      ca_alpha                sc43(p,a)ca40                                         
+5:   81                r_sc43_pg_ti44        8.649500                      ca_alpha                sc43(p,g)ti44                                         
+5:   82                   r_be7_pg_b8        0.137515                            pp               be7(p,g)b8                                             
+5:   83                 r_si28_ap_p31       -1.915967                      si_alpha                si28(a,p)p31                                          
+5:   84                r_si28_gp_al27      -11.585109                         photo               si28(g,p)al27                                          
+5:   85                  r_be7_wk_li7                weaklib                     pp               be7(e-,nu)li7                                          
+5:   86                 r_ti44_ap_v47       -0.410463                      ti_alpha                ti44(a,p)v47                                          
+5:   87                r_ti44_gp_sc43       -8.649500                         photo               ti44(g,p)sc43                                          
+5:   88                 r_v47_pa_ti44        0.410463                      ti_alpha                v47(p,a)ti44                                          
+5:   89                 r_v47_pg_cr48        8.106100                      ti_alpha                v47(p,g)cr48                                          
+5:   90               rco56ec_to_fe56                weaklib                  other               co56 + e- => fe56                                      
+5:   91                 rneut_to_prot        0.782347                         other               neut(e+nu)prot                                         
+5:   92               rni56ec_to_co56                weaklib                  other               ni56 + e- => co56                                      
+5:   93                    rpp_to_he3        6.935697        0.266800            pp               p(p,e+nu)h2(p,g)he3                                    
+5:   94                 rprot_to_neut       -0.782347                         other               prot(e-nu)neut                                         
+5: 
+5:                             set_cumulative_energy_error    0.0000000000000000D+00
+5:  species
+5:      1   neut    
+5:      2   h1      
+5:      3   prot    
+5:      4   he3     
+5:      5   he4     
+5:      6   c12     
+5:      7   n14     
+5:      8   o16     
+5:      9   ne20    
+5:     10   mg24    
+5:     11   si28    
+5:     12   s32     
+5:     13   ar36    
+5:     14   ca40    
+5:     15   ti44    
+5:     16   cr48    
+5:     17   cr56    
+5:     18   fe52    
+5:     19   fe54    
+5:     20   fe56    
+5:     21   co56    
+5:     22   ni56    
+5: 
+5:  kap_option gs98
+5:  kap_CO_option gs98_co
+5:  kap_lowT_option lowT_fa05_gs98
+5:                                         OMP_NUM_THREADS           8
+5: 
+5: 
+5: __________________________________________________________________________________________________________________________________________________
+5: 
+5:        step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+5:   lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+5:     age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+5: __________________________________________________________________________________________________________________________________________________
+5: 
+6:   78                 r_s32_ap_cl35       -1.866212                       s_alpha                s32(a,p)cl35                                          
+6:   79                  r_s32_gp_p31       -8.863783                         photo               s32(g,p)p31                                            
+6:   80                r_sc43_pa_ca40        3.522401                      ca_alpha                sc43(p,a)ca40                                         
+6:   81                r_sc43_pg_ti44        8.649500                      ca_alpha                sc43(p,g)ti44                                         
+6:   82                   r_be7_pg_b8        0.137515                            pp               be7(p,g)b8                                             
+6:   83                 r_si28_ap_p31       -1.915967                      si_alpha                si28(a,p)p31                                          
+6:   84                r_si28_gp_al27      -11.585109                         photo               si28(g,p)al27                                          
+6:   85                  r_be7_wk_li7                weaklib                     pp               be7(e-,nu)li7                                          
+6:   86                 r_ti44_ap_v47       -0.410463                      ti_alpha                ti44(a,p)v47                                          
+6:   87                r_ti44_gp_sc43       -8.649500                         photo               ti44(g,p)sc43                                          
+6:   88                 r_v47_pa_ti44        0.410463                      ti_alpha                v47(p,a)ti44                                          
+6:   89                 r_v47_pg_cr48        8.106100                      ti_alpha                v47(p,g)cr48                                          
+6:   90               rco56ec_to_fe56                weaklib                  other               co56 + e- => fe56                                      
+6:   91                 rneut_to_prot        0.782347                         other               neut(e+nu)prot                                         
+6:   92               rni56ec_to_co56                weaklib                  other               ni56 + e- => co56                                      
+6:   93                    rpp_to_he3        6.935697        0.266800            pp               p(p,e+nu)h2(p,g)he3                                    
+6:   94                 rprot_to_neut       -0.782347                         other               prot(e-nu)neut                                         
+6: 
+6:                             set_cumulative_energy_error    0.0000000000000000D+00
+6:  species
+6:      1   neut    
+6:      2   h1      
+6:      3   prot    
+6:      4   he3     
+6:      5   he4     
+6:      6   c12     
+6:      7   n14     
+6:      8   o16     
+6:      9   ne20    
+6:     10   mg24    
+6:     11   si28    
+6:     12   s32     
+6:     13   ar36    
+6:     14   ca40    
+6:     15   ti44    
+6:     16   cr48    
+6:     17   cr56    
+6:     18   fe52    
+6:     19   fe54    
+6:     20   fe56    
+6:     21   co56    
+6:     22   ni56    
+6: 
+6:  kap_option gs98
+6:  kap_CO_option gs98_co
+6:  kap_lowT_option lowT_fa05_gs98
+6:                                         OMP_NUM_THREADS           8
+6: 
+6: 
+6: __________________________________________________________________________________________________________________________________________________
+6: 
+6:        step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+6:   lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+6:     age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+6: __________________________________________________________________________________________________________________________________________________
+6: 
+7:                                set_initial_model_number           0
+7:                              set_initial_number_retries           0
+7:  net name approx21_plus_co56.net
+7:                                         eps_mdot_factor    0.0000000000000000D+00
+7:  net reactions 
+7: 
+7:                               name          Qtotal            Qneu        category    info                  source
+7:    1                r_ar36_ag_ca40        7.039651                      ar_alpha                ar36(a,g)ca40                                         
+7:    2                r_ca40_ga_ar36       -7.039651                         photo               ca40(g,a)ar36                                          
+7:    3                  r_c12_ag_o16        7.161917                       c_alpha                c12(a,g)o16                                           
+7:    4                  r_o16_ga_c12       -7.161917                         photo               o16(g,a)c12                                            
+7:    5                r_ca40_ag_ti44        5.127100                      ca_alpha                ca40(a,g)ti44                                         
+7:    6                r_ti44_ga_ca40       -5.127100                         photo               ti44(g,a)ca40                                          
+7:    7                r_cr48_ag_fe52        7.937351                      cr_alpha                cr48(a,g)fe52                                         
+7:    8                r_fe52_ga_cr48       -7.937351                         photo               fe52(g,a)cr48                                          
+7:    9                r_fe52_ag_ni56        7.996975                      fe_co_ni                fe52(a,g)ni56                                         
+7:   10                r_ni56_ga_fe52       -7.996975                         photo               ni56(g,a)fe52                                          
+7:   11                r_mg24_ag_si28        9.984145                      mg_alpha                mg24(a,g)si28                                         
+7:   12                r_si28_ga_mg24       -9.984145                         photo               si28(g,a)mg24                                          
+7:   13                r_ne20_ag_mg24        9.316551                      ne_alpha                ne20(a,g)mg24                                         
+7:   14                r_mg24_ga_ne20       -9.316551                         photo               mg24(g,a)ne20                                          
+7:   15                 r_o16_ag_ne20        4.729846                       o_alpha                o16(a,g)ne20                                          
+7:   16                 r_ne20_ga_o16       -4.729846                         photo               ne20(g,a)o16                                           
+7:   17                 r_s32_ag_ar36        6.640759                       s_alpha                s32(a,g)ar36                                          
+7:   18                 r_ar36_ga_s32       -6.640759                         photo               ar36(g,a)s32                                           
+7:   19                 r_si28_ag_s32        6.947816                      si_alpha                si28(a,g)s32                                          
+7:   20                 r_s32_ga_si28       -6.947816                         photo               s32(g,a)si28                                           
+7:   21                r_ti44_ag_cr48        7.695637                      ti_alpha                ti44(a,g)cr48                                         
+7:   22                r_cr48_ga_ti44       -7.695637                         photo               cr48(g,a)ti44                                          
+7:   23          r_c12_to_he4_he4_he4       -7.274747                         photo               c12 => 3 he4                                           
+7:   24          r_he4_he4_he4_to_c12        7.274747                     tri_alpha                triple alpha                                          
+7:   25                  r_c12_pg_n13        1.943489                           cno               c12(p,g)n13                                            
+7:   26                         r1216        6.771650                       c12_o16               c12 + o16 -> mg24 + he4                                
+7:   27                         r1616        9.593878                       o16_o16               o16+o16 => a + si28, a and p                           
+7:   28                r_ca40_ap_sc43       -3.522401                      ca_alpha                ca40(a,p)sc43                                         
+7:   29                 r_ca40_gp_k39       -8.328235                         photo               ca40(g,p)k39                                           
+7:   30                 r_cl35_pa_s32        1.866212                       s_alpha                cl35(p,a)s32                                          
+7:   31                r_cl35_pg_ar36        8.506971                       s_alpha                cl35(p,g)ar36                                         
+7:   32                r_co55_gp_fe54       -5.064072                         photo               co55(g,p)fe54                                          
+7:   33                r_co55_pa_fe52       -0.831887                      fe_co_ni                co55(p,a)fe52                                         
+7:   34                r_co55_pg_ni56        7.165088                      fe_co_ni                co55(p,g)ni56                                         
+7:   35                r_co57_gp_fe56       -6.027823                         photo               co57(g,p)fe56                                          
+7:   36                r_co57_pa_fe54        1.772307                      fe_co_ni                co57(p,a)fe54                                         
+7:   37                r_al27_pa_mg24        1.600964                         photo               al27(p,a)mg24                                          
+7:   38                r_cr48_ap_mn51        0.558106                      cr_alpha                cr48(a,p)mn51                                         
+7:   39                 r_cr48_gp_v47       -8.106100                         photo               cr48(g,p)v47                                           
+7:   40                r_al27_pg_si28       11.585109                      mg_alpha                al27(p,g)si28                                         
+7:   41                r_fe52_ap_co55        0.831887                      fe_co_ni                fe52(a,p)co55                                         
+7:   42                r_fe52_gp_mn51       -7.379245                         photo               fe52(g,p)mn51                                          
+7:   43                r_fe52_ng_fe53       10.685025                      fe_co_ni                fe52(n,g)fe53                                         
+7:   44                r_fe53_gn_fe52      -10.685025                         photo               fe53(g,n)fe52                                          
+7:   45                r_fe53_ng_fe54       13.378450                      fe_co_ni                fe53(n,g)fe54                                         
+7:   46                r_fe54_ap_co57       -1.772307                      fe_co_ni                fe54(a,p)co57                                         
+7:   47                r_fe54_gn_fe53      -13.378450                         photo               fe54(g,n)fe53                                          
+7:   48                r_fe54_ng_fe55        9.298229                      fe_co_ni                fe54(n,g)fe55                                         
+7:   49                r_fe54_pg_co55        5.064072                      fe_co_ni                fe54(p,g)co55                                         
+7:   50                r_fe55_gn_fe54       -9.298229                         photo               fe55(g,n)fe54                                          
+7:   51                r_fe55_ng_fe56       11.197301                      fe_co_ni                fe55(n,g)fe56                                         
+7:   52                r_fe56_gn_fe55      -11.197301                         photo               fe56(g,n)fe55                                          
+7:   53                r_fe56_pg_co57        6.027823                      fe_co_ni                fe56(p,g)co57                                         
+7:   54                    r_h1_ng_h2        2.224566                         other               h1(n,g)h2                                              
+7:   55                    r_h2_gn_h1       -2.224566                         photo               h2(g,n)h1                                              
+7:   56                   r_h2_pg_he3        5.493477                            pp               h2(p,g)he3                                             
+7:   57                  r_he3_ag_be7        1.586096                            pp               he4(he3,g)be7                                          
+7:   58                   r_he3_gp_h2       -5.493477                         photo               he3(g,p)h2                                             
+7:   59        r_he3_he3_to_h1_h1_he4       12.859573                            pp               2 he3 => 2 p + he4                                     
+7:   60                  r_he3_ng_he4       20.577616                         other               he3(n,g)he4                                            
+7:   61                  r_he4_gn_he3      -20.577616                         photo               he4(g,n)he3                                            
+7:   62                 r_k39_pa_ar36        1.288584                      ar_alpha                k39(p,a)ar36                                          
+7:   63                 r_k39_pg_ca40        8.328235                      ar_alpha                k39(p,g)ca40                                          
+7:   64                         r1212        4.617016                       c12_c12               c12 + c12 -> ne20 + he4; rate includes                 
+7:   65                r_mg24_ap_al27       -1.600964                      mg_alpha                mg24(a,p)al27                                         
+7:   66                r_mn51_pa_cr48       -0.558106                      cr_alpha                mn51(p,a)cr48                                         
+7:   67                r_mn51_pg_fe52        7.379245                      cr_alpha                mn51(p,g)fe52                                         
+7:   68                  r_n14_ag_f18        4.414632                       n_alpha                n14(a,g)f18                                           
+7:   69                  r_n14_pg_o15        7.296783                           cno               n14(p,g)o15                                            
+7:   70                  r_n15_pa_c12        4.965493                           cno               n15(p,a)c12                                            
+7:   71                  r_n15_pg_o16       12.127410                           cno               n15(p,g)o16                                            
+7:   72                 r_ar36_ap_k39       -1.288584                      ar_alpha                ar36(a,p)k39                                          
+7:   73                r_ni56_gp_co55       -7.165088                         photo               ni56(g,p)co55                                          
+7:   74                  r_o16_pg_f17        0.600268                           cno               o16(p,g)f17                                            
+7:   75                 r_p31_pa_si28        1.915967                      si_alpha                p31(p,a)si28                                          
+7:   76                  r_p31_pg_s32        8.863783                      si_alpha                p31(p,g)s32                                           
+7:   77                r_ar36_gp_cl35       -8.506971                         photo               ar36(g,p)cl35                                          
+7:   78                 r_s32_ap_cl35       -1.866212                       s_alpha                s32(a,p)cl35                                          
+7:   79                  r_s32_gp_p31       -8.863783                         photo               s32(g,p)p31                                            
+7:   80                r_sc43_pa_ca40        3.522401                      ca_alpha                sc43(p,a)ca40                                         
+7:   81                r_sc43_pg_ti44        8.649500                      ca_alpha                sc43(p,g)ti44                                         
+7:   82                   r_be7_pg_b8        0.137515                            pp               be7(p,g)b8                                             
+7:   83                 r_si28_ap_p31       -1.915967                      si_alpha                si28(a,p)p31                                          
+7:   84                r_si28_gp_al27      -11.585109                         photo               si28(g,p)al27                                          
+7:   85                  r_be7_wk_li7                weaklib                     pp               be7(e-,nu)li7                                          
+7:   86                 r_ti44_ap_v47       -0.410463                      ti_alpha                ti44(a,p)v47                                          
+7:   87                r_ti44_gp_sc43       -8.649500                         photo               ti44(g,p)sc43                                          
+7:   88                 r_v47_pa_ti44        0.410463                      ti_alpha                v47(p,a)ti44                                          
+7:   89                 r_v47_pg_cr48        8.106100                      ti_alpha                v47(p,g)cr48                                          
+7:   90               rco56ec_to_fe56                weaklib                  other               co56 + e- => fe56                                      
+7:   91                 rneut_to_prot        0.782347                         other               neut(e+nu)prot                                         
+7:   92               rni56ec_to_co56                weaklib                  other               ni56 + e- => co56                                      
+7:   93                    rpp_to_he3        6.935697        0.266800            pp               p(p,e+nu)h2(p,g)he3                                    
+7:   94                 rprot_to_neut       -0.782347                         other               prot(e-nu)neut                                         
+7: 
+7:                             set_cumulative_energy_error    0.0000000000000000D+00
+7:  species
+7:      1   neut    
+7:      2   h1      
+7:      3   prot    
+7:      4   he3     
+7:      5   he4     
+7:      6   c12     
+7:      7   n14     
+7:      8   o16     
+7:      9   ne20    
+7:     10   mg24    
+7:     11   si28    
+7:     12   s32     
+7:     13   ar36    
+7:     14   ca40    
+7:     15   ti44    
+7:     16   cr48    
+7:     17   cr56    
+7:     18   fe52    
+7:     19   fe54    
+7:     20   fe56    
+7:     21   co56    
+7:     22   ni56    
+7: 
+7:  kap_option gs98
+7:  kap_CO_option gs98_co
+7:  kap_lowT_option lowT_fa05_gs98
+7:                                         OMP_NUM_THREADS           8
+7: 
+7: 
+7: __________________________________________________________________________________________________________________________________________________
+7: 
+7:        step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+7:   lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+7:     age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+7: __________________________________________________________________________________________________________________________________________________
+7: 
+1:  change to "approx21_plus_co56.net"
+1:  number of species          22
+1:                                         set_initial_age    0.0000000000000000D+00
+1:                                                 set_age    0.0000000000000000D+00
+1:                                set_initial_model_number           0
+1:                              set_initial_number_retries           0
+1:  net name approx21_plus_co56.net
+1:                                         eps_mdot_factor    0.0000000000000000D+00
+1:  net reactions 
+1: 
+1:                               name          Qtotal            Qneu        category    info                  source
+1:    1                r_ar36_ag_ca40        7.039651                      ar_alpha                ar36(a,g)ca40                                         
+1:    2                r_ca40_ga_ar36       -7.039651                         photo               ca40(g,a)ar36                                          
+1:    3                  r_c12_ag_o16        7.161917                       c_alpha                c12(a,g)o16                                           
+1:    4                  r_o16_ga_c12       -7.161917                         photo               o16(g,a)c12                                            
+1:    5                r_ca40_ag_ti44        5.127100                      ca_alpha                ca40(a,g)ti44                                         
+1:    6                r_ti44_ga_ca40       -5.127100                         photo               ti44(g,a)ca40                                          
+1:    7                r_cr48_ag_fe52        7.937351                      cr_alpha                cr48(a,g)fe52                                         
+1:    8                r_fe52_ga_cr48       -7.937351                         photo               fe52(g,a)cr48                                          
+1:    9                r_fe52_ag_ni56        7.996975                      fe_co_ni                fe52(a,g)ni56                                         
+1:   10                r_ni56_ga_fe52       -7.996975                         photo               ni56(g,a)fe52                                          
+1:   11                r_mg24_ag_si28        9.984145                      mg_alpha                mg24(a,g)si28                                         
+1:   12                r_si28_ga_mg24       -9.984145                         photo               si28(g,a)mg24                                          
+1:   13                r_ne20_ag_mg24        9.316551                      ne_alpha                ne20(a,g)mg24                                         
+1:   14                r_mg24_ga_ne20       -9.316551                         photo               mg24(g,a)ne20                                          
+1:   15                 r_o16_ag_ne20        4.729846                       o_alpha                o16(a,g)ne20                                          
+1:   16                 r_ne20_ga_o16       -4.729846                         photo               ne20(g,a)o16                                           
+1:   17                 r_s32_ag_ar36        6.640759                       s_alpha                s32(a,g)ar36                                          
+1:   18                 r_ar36_ga_s32       -6.640759                         photo               ar36(g,a)s32                                           
+1:   19                 r_si28_ag_s32        6.947816                      si_alpha                si28(a,g)s32                                          
+1:   20                 r_s32_ga_si28       -6.947816                         photo               s32(g,a)si28                                           
+1:   21                r_ti44_ag_cr48        7.695637                      ti_alpha                ti44(a,g)cr48                                         
+1:   22                r_cr48_ga_ti44       -7.695637                         photo               cr48(g,a)ti44                                          
+1:   23          r_c12_to_he4_he4_he4       -7.274747                         photo               c12 => 3 he4                                           
+1:   24          r_he4_he4_he4_to_c12        7.274747                     tri_alpha                triple alpha                                          
+1:   25                  r_c12_pg_n13        1.943489                           cno               c12(p,g)n13                                            
+1:   26                         r1216        6.771650                       c12_o16               c12 + o16 -> mg24 + he4                                
+1:   27                         r1616        9.593878                       o16_o16               o16+o16 => a + si28, a and p                           
+1:   28                r_ca40_ap_sc43       -3.522401                      ca_alpha                ca40(a,p)sc43                                         
+1:   29                 r_ca40_gp_k39       -8.328235                         photo               ca40(g,p)k39                                           
+1:   30                 r_cl35_pa_s32        1.866212                       s_alpha                cl35(p,a)s32                                          
+1:   31                r_cl35_pg_ar36        8.506971                       s_alpha                cl35(p,g)ar36                                         
+1:   32                r_co55_gp_fe54       -5.064072                         photo               co55(g,p)fe54                                          
+1:   33                r_co55_pa_fe52       -0.831887                      fe_co_ni                co55(p,a)fe52                                         
+1:   34                r_co55_pg_ni56        7.165088                      fe_co_ni                co55(p,g)ni56                                         
+1:   35                r_co57_gp_fe56       -6.027823                         photo               co57(g,p)fe56                                          
+1:   36                r_co57_pa_fe54        1.772307                      fe_co_ni                co57(p,a)fe54                                         
+1:   37                r_al27_pa_mg24        1.600964                         photo               al27(p,a)mg24                                          
+1:   38                r_cr48_ap_mn51        0.558106                      cr_alpha                cr48(a,p)mn51                                         
+1:   39                 r_cr48_gp_v47       -8.106100                         photo               cr48(g,p)v47                                           
+1:   40                r_al27_pg_si28       11.585109                      mg_alpha                al27(p,g)si28                                         
+1:   41                r_fe52_ap_co55        0.831887                      fe_co_ni                fe52(a,p)co55                                         
+1:   42                r_fe52_gp_mn51       -7.379245                         photo               fe52(g,p)mn51                                          
+1:   43                r_fe52_ng_fe53       10.685025                      fe_co_ni                fe52(n,g)fe53                                         
+1:   44                r_fe53_gn_fe52      -10.685025                         photo               fe53(g,n)fe52                                          
+1:   45                r_fe53_ng_fe54       13.378450                      fe_co_ni                fe53(n,g)fe54                                         
+1:   46                r_fe54_ap_co57       -1.772307                      fe_co_ni                fe54(a,p)co57                                         
+1:   47                r_fe54_gn_fe53      -13.378450                         photo               fe54(g,n)fe53                                          
+1:   48                r_fe54_ng_fe55        9.298229                      fe_co_ni                fe54(n,g)fe55                                         
+1:   49                r_fe54_pg_co55        5.064072                      fe_co_ni                fe54(p,g)co55                                         
+1:   50                r_fe55_gn_fe54       -9.298229                         photo               fe55(g,n)fe54                                          
+1:   51                r_fe55_ng_fe56       11.197301                      fe_co_ni                fe55(n,g)fe56                                         
+1:   52                r_fe56_gn_fe55      -11.197301                         photo               fe56(g,n)fe55                                          
+1:   53                r_fe56_pg_co57        6.027823                      fe_co_ni                fe56(p,g)co57                                         
+1:   54                    r_h1_ng_h2        2.224566                         other               h1(n,g)h2                                              
+1:   55                    r_h2_gn_h1       -2.224566                         photo               h2(g,n)h1                                              
+1:   56                   r_h2_pg_he3        5.493477                            pp               h2(p,g)he3                                             
+1:   57                  r_he3_ag_be7        1.586096                            pp               he4(he3,g)be7                                          
+1:   58                   r_he3_gp_h2       -5.493477                         photo               he3(g,p)h2                                             
+1:   59        r_he3_he3_to_h1_h1_he4       12.859573                            pp               2 he3 => 2 p + he4                                     
+1:   60                  r_he3_ng_he4       20.577616                         other               he3(n,g)he4                                            
+1:   61                  r_he4_gn_he3      -20.577616                         photo               he4(g,n)he3                                            
+1:   62                 r_k39_pa_ar36        1.288584                      ar_alpha                k39(p,a)ar36                                          
+1:   63                 r_k39_pg_ca40        8.328235                      ar_alpha                k39(p,g)ca40                                          
+1:   64                         r1212        4.617016                       c12_c12               c12 + c12 -> ne20 + he4; rate includes                 
+1:   65                r_mg24_ap_al27       -1.600964                      mg_alpha                mg24(a,p)al27                                         
+1:   66                r_mn51_pa_cr48       -0.558106                      cr_alpha                mn51(p,a)cr48                                         
+1:   67                r_mn51_pg_fe52        7.379245                      cr_alpha                mn51(p,g)fe52                                         
+1:   68                  r_n14_ag_f18        4.414632                       n_alpha                n14(a,g)f18                                           
+1:   69                  r_n14_pg_o15        7.296783                           cno               n14(p,g)o15                                            
+1:   70                  r_n15_pa_c12        4.965493                           cno               n15(p,a)c12                                            
+1:   71                  r_n15_pg_o16       12.127410                           cno               n15(p,g)o16                                            
+1:   72                 r_ar36_ap_k39       -1.288584                      ar_alpha                ar36(a,p)k39                                          
+1:   73                r_ni56_gp_co55       -7.165088                         photo               ni56(g,p)co55                                          
+1:   74                  r_o16_pg_f17        0.600268                           cno               o16(p,g)f17                                            
+1:   75                 r_p31_pa_si28        1.915967                      si_alpha                p31(p,a)si28                                          
+1:   76                  r_p31_pg_s32        8.863783                      si_alpha                p31(p,g)s32                                           
+1:   77                r_ar36_gp_cl35       -8.506971                         photo               ar36(g,p)cl35                                          
+1:   78                 r_s32_ap_cl35       -1.866212                       s_alpha                s32(a,p)cl35                                          
+1:   79                  r_s32_gp_p31       -8.863783                         photo               s32(g,p)p31                                            
+1:   80                r_sc43_pa_ca40        3.522401                      ca_alpha                sc43(p,a)ca40                                         
+1:   81                r_sc43_pg_ti44        8.649500                      ca_alpha                sc43(p,g)ti44                                         
+1:   82                   r_be7_pg_b8        0.137515                            pp               be7(p,g)b8                                             
+1:   83                 r_si28_ap_p31       -1.915967                      si_alpha                si28(a,p)p31                                          
+1:   84                r_si28_gp_al27      -11.585109                         photo               si28(g,p)al27                                          
+1:   85                  r_be7_wk_li7                weaklib                     pp               be7(e-,nu)li7                                          
+1:   86                 r_ti44_ap_v47       -0.410463                      ti_alpha                ti44(a,p)v47                                          
+1:   87                r_ti44_gp_sc43       -8.649500                         photo               ti44(g,p)sc43                                          
+1:   88                 r_v47_pa_ti44        0.410463                      ti_alpha                v47(p,a)ti44                                          
+1:   89                 r_v47_pg_cr48        8.106100                      ti_alpha                v47(p,g)cr48                                          
+1:   90               rco56ec_to_fe56                weaklib                  other               co56 + e- => fe56                                      
+1:   91                 rneut_to_prot        0.782347                         other               neut(e+nu)prot                                         
+1:   92               rni56ec_to_co56                weaklib                  other               ni56 + e- => co56                                      
+1:   93                    rpp_to_he3        6.935697        0.266800            pp               p(p,e+nu)h2(p,g)he3                                    
+1:   94                 rprot_to_neut       -0.782347                         other               prot(e-nu)neut                                         
+1: 
+1:                             set_cumulative_energy_error    0.0000000000000000D+00
+1:  species
+1:      1   neut    
+1:      2   h1      
+1:      3   prot    
+1:      4   he3     
+1:      5   he4     
+1:      6   c12     
+1:      7   n14     
+1:      8   o16     
+1:      9   ne20    
+1:     10   mg24    
+1:     11   si28    
+1:     12   s32     
+1:     13   ar36    
+1:     14   ca40    
+1:     15   ti44    
+1:     16   cr48    
+1:     17   cr56    
+1:     18   fe52    
+1:     19   fe54    
+1:     20   fe56    
+1:     21   co56    
+1:     22   ni56    
+1: 
+1:  kap_option gs98
+1:  kap_CO_option gs98_co
+1:  kap_lowT_option lowT_fa05_gs98
+1:                                         OMP_NUM_THREADS           8
+1: 
+1: 
+1: __________________________________________________________________________________________________________________________________________________
+1: 
+1:        step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+1:   lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+1:     age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+1: __________________________________________________________________________________________________________________________________________________
+1: 
+3:  change to "approx21_plus_co56.net"
+3:  number of species          22
+3:                                         set_initial_age    0.0000000000000000D+00
+3:                                                 set_age    0.0000000000000000D+00
+3:                                set_initial_model_number           0
+3:                              set_initial_number_retries           0
+3:  net name approx21_plus_co56.net
+3:                                         eps_mdot_factor    0.0000000000000000D+00
+3:  net reactions 
+3: 
+3:                               name          Qtotal            Qneu        category    info                  source
+3:    1                r_ar36_ag_ca40        7.039651                      ar_alpha                ar36(a,g)ca40                                         
+3:    2                r_ca40_ga_ar36       -7.039651                         photo               ca40(g,a)ar36                                          
+3:    3                  r_c12_ag_o16        7.161917                       c_alpha                c12(a,g)o16                                           
+3:    4                  r_o16_ga_c12       -7.161917                         photo               o16(g,a)c12                                            
+3:    5                r_ca40_ag_ti44        5.127100                      ca_alpha                ca40(a,g)ti44                                         
+3:    6                r_ti44_ga_ca40       -5.127100                         photo               ti44(g,a)ca40                                          
+3:    7                r_cr48_ag_fe52        7.937351                      cr_alpha                cr48(a,g)fe52                                         
+3:    8                r_fe52_ga_cr48       -7.937351                         photo               fe52(g,a)cr48                                          
+3:    9                r_fe52_ag_ni56        7.996975                      fe_co_ni                fe52(a,g)ni56                                         
+3:   10                r_ni56_ga_fe52       -7.996975                         photo               ni56(g,a)fe52                                          
+3:   11                r_mg24_ag_si28        9.984145                      mg_alpha                mg24(a,g)si28                                         
+3:   12                r_si28_ga_mg24       -9.984145                         photo               si28(g,a)mg24                                          
+3:   13                r_ne20_ag_mg24        9.316551                      ne_alpha                ne20(a,g)mg24                                         
+3:   14                r_mg24_ga_ne20       -9.316551                         photo               mg24(g,a)ne20                                          
+3:   15                 r_o16_ag_ne20        4.729846                       o_alpha                o16(a,g)ne20                                          
+3:   16                 r_ne20_ga_o16       -4.729846                         photo               ne20(g,a)o16                                           
+3:   17                 r_s32_ag_ar36        6.640759                       s_alpha                s32(a,g)ar36                                          
+3:   18                 r_ar36_ga_s32       -6.640759                         photo               ar36(g,a)s32                                           
+3:   19                 r_si28_ag_s32        6.947816                      si_alpha                si28(a,g)s32                                          
+3:   20                 r_s32_ga_si28       -6.947816                         photo               s32(g,a)si28                                           
+3:   21                r_ti44_ag_cr48        7.695637                      ti_alpha                ti44(a,g)cr48                                         
+3:   22                r_cr48_ga_ti44       -7.695637                         photo               cr48(g,a)ti44                                          
+3:   23          r_c12_to_he4_he4_he4       -7.274747                         photo               c12 => 3 he4                                           
+3:   24          r_he4_he4_he4_to_c12        7.274747                     tri_alpha                triple alpha                                          
+3:   25                  r_c12_pg_n13        1.943489                           cno               c12(p,g)n13                                            
+3:   26                         r1216        6.771650                       c12_o16               c12 + o16 -> mg24 + he4                                
+3:   27                         r1616        9.593878                       o16_o16               o16+o16 => a + si28, a and p                           
+3:   28                r_ca40_ap_sc43       -3.522401                      ca_alpha                ca40(a,p)sc43                                         
+3:   29                 r_ca40_gp_k39       -8.328235                         photo               ca40(g,p)k39                                           
+3:   30                 r_cl35_pa_s32        1.866212                       s_alpha                cl35(p,a)s32                                          
+3:   31                r_cl35_pg_ar36        8.506971                       s_alpha                cl35(p,g)ar36                                         
+3:   32                r_co55_gp_fe54       -5.064072                         photo               co55(g,p)fe54                                          
+3:   33                r_co55_pa_fe52       -0.831887                      fe_co_ni                co55(p,a)fe52                                         
+3:   34                r_co55_pg_ni56        7.165088                      fe_co_ni                co55(p,g)ni56                                         
+3:   35                r_co57_gp_fe56       -6.027823                         photo               co57(g,p)fe56                                          
+3:   36                r_co57_pa_fe54        1.772307                      fe_co_ni                co57(p,a)fe54                                         
+3:   37                r_al27_pa_mg24        1.600964                         photo               al27(p,a)mg24                                          
+3:   38                r_cr48_ap_mn51        0.558106                      cr_alpha                cr48(a,p)mn51                                         
+3:   39                 r_cr48_gp_v47       -8.106100                         photo               cr48(g,p)v47                                           
+3:   40                r_al27_pg_si28       11.585109                      mg_alpha                al27(p,g)si28                                         
+3:   41                r_fe52_ap_co55        0.831887                      fe_co_ni                fe52(a,p)co55                                         
+3:   42                r_fe52_gp_mn51       -7.379245                         photo               fe52(g,p)mn51                                          
+3:   43                r_fe52_ng_fe53       10.685025                      fe_co_ni                fe52(n,g)fe53                                         
+3:   44                r_fe53_gn_fe52      -10.685025                         photo               fe53(g,n)fe52                                          
+3:   45                r_fe53_ng_fe54       13.378450                      fe_co_ni                fe53(n,g)fe54                                         
+3:   46                r_fe54_ap_co57       -1.772307                      fe_co_ni                fe54(a,p)co57                                         
+3:   47                r_fe54_gn_fe53      -13.378450                         photo               fe54(g,n)fe53                                          
+3:   48                r_fe54_ng_fe55        9.298229                      fe_co_ni                fe54(n,g)fe55                                         
+3:   49                r_fe54_pg_co55        5.064072                      fe_co_ni                fe54(p,g)co55                                         
+3:   50                r_fe55_gn_fe54       -9.298229                         photo               fe55(g,n)fe54                                          
+3:   51                r_fe55_ng_fe56       11.197301                      fe_co_ni                fe55(n,g)fe56                                         
+3:   52                r_fe56_gn_fe55      -11.197301                         photo               fe56(g,n)fe55                                          
+3:   53                r_fe56_pg_co57        6.027823                      fe_co_ni                fe56(p,g)co57                                         
+3:   54                    r_h1_ng_h2        2.224566                         other               h1(n,g)h2                                              
+3:   55                    r_h2_gn_h1       -2.224566                         photo               h2(g,n)h1                                              
+3:   56                   r_h2_pg_he3        5.493477                            pp               h2(p,g)he3                                             
+3:   57                  r_he3_ag_be7        1.586096                            pp               he4(he3,g)be7                                          
+3:   58                   r_he3_gp_h2       -5.493477                         photo               he3(g,p)h2                                             
+3:   59        r_he3_he3_to_h1_h1_he4       12.859573                            pp               2 he3 => 2 p + he4                                     
+3:   60                  r_he3_ng_he4       20.577616                         other               he3(n,g)he4                                            
+3:   61                  r_he4_gn_he3      -20.577616                         photo               he4(g,n)he3                                            
+3:   62                 r_k39_pa_ar36        1.288584                      ar_alpha                k39(p,a)ar36                                          
+3:   63                 r_k39_pg_ca40        8.328235                      ar_alpha                k39(p,g)ca40                                          
+3:   64                         r1212        4.617016                       c12_c12               c12 + c12 -> ne20 + he4; rate includes                 
+3:   65                r_mg24_ap_al27       -1.600964                      mg_alpha                mg24(a,p)al27                                         
+3:   66                r_mn51_pa_cr48       -0.558106                      cr_alpha                mn51(p,a)cr48                                         
+3:   67                r_mn51_pg_fe52        7.379245                      cr_alpha                mn51(p,g)fe52                                         
+3:   68                  r_n14_ag_f18        4.414632                       n_alpha                n14(a,g)f18                                           
+3:   69                  r_n14_pg_o15        7.296783                           cno               n14(p,g)o15                                            
+3:   70                  r_n15_pa_c12        4.965493                           cno               n15(p,a)c12                                            
+3:   71                  r_n15_pg_o16       12.127410                           cno               n15(p,g)o16                                            
+3:   72                 r_ar36_ap_k39       -1.288584                      ar_alpha                ar36(a,p)k39                                          
+3:   73                r_ni56_gp_co55       -7.165088                         photo               ni56(g,p)co55                                          
+3:   74                  r_o16_pg_f17        0.600268                           cno               o16(p,g)f17                                            
+3:   75                 r_p31_pa_si28        1.915967                      si_alpha                p31(p,a)si28                                          
+3:   76                  r_p31_pg_s32        8.863783                      si_alpha                p31(p,g)s32                                           
+3:   77                r_ar36_gp_cl35       -8.506971                         photo               ar36(g,p)cl35                                          
+3:   78                 r_s32_ap_cl35       -1.866212                       s_alpha                s32(a,p)cl35                                          
+3:   79                  r_s32_gp_p31       -8.863783                         photo               s32(g,p)p31                                            
+3:   80                r_sc43_pa_ca40        3.522401                      ca_alpha                sc43(p,a)ca40                                         
+3:   81                r_sc43_pg_ti44        8.649500                      ca_alpha                sc43(p,g)ti44                                         
+3:   82                   r_be7_pg_b8        0.137515                            pp               be7(p,g)b8                                             
+3:   83                 r_si28_ap_p31       -1.915967                      si_alpha                si28(a,p)p31                                          
+3:   84                r_si28_gp_al27      -11.585109                         photo               si28(g,p)al27                                          
+3:   85                  r_be7_wk_li7                weaklib                     pp               be7(e-,nu)li7                                          
+3:   86                 r_ti44_ap_v47       -0.410463                      ti_alpha                ti44(a,p)v47                                          
+3:   87                r_ti44_gp_sc43       -8.649500                         photo               ti44(g,p)sc43                                          
+3:   88                 r_v47_pa_ti44        0.410463                      ti_alpha                v47(p,a)ti44                                          
+3:   89                 r_v47_pg_cr48        8.106100                      ti_alpha                v47(p,g)cr48                                          
+3:   90               rco56ec_to_fe56                weaklib                  other               co56 + e- => fe56                                      
+3:   91                 rneut_to_prot        0.782347                         other               neut(e+nu)prot                                         
+3:   92               rni56ec_to_co56                weaklib                  other               ni56 + e- => co56                                      
+3:   93                    rpp_to_he3        6.935697        0.266800            pp               p(p,e+nu)h2(p,g)he3                                    
+3:   94                 rprot_to_neut       -0.782347                         other               prot(e-nu)neut                                         
+3: 
+3:                             set_cumulative_energy_error    0.0000000000000000D+00
+3:  species
+3:      1   neut    
+3:      2   h1      
+3:      3   prot    
+3:      4   he3     
+3:      5   he4     
+3:      6   c12     
+3:      7   n14     
+3:      8   o16     
+3:      9   ne20    
+3:     10   mg24    
+3:     11   si28    
+3:     12   s32     
+3:     13   ar36    
+3:     14   ca40    
+3:     15   ti44    
+3:     16   cr48    
+3:     17   cr56    
+3:     18   fe52    
+3:     19   fe54    
+3:     20   fe56    
+3:     21   co56    
+3:     22   ni56    
+3: 
+3:  kap_option gs98
+3:  kap_CO_option gs98_co
+3:  kap_lowT_option lowT_fa05_gs98
+3:                                         OMP_NUM_THREADS           8
+3: 
+3: 
+3: __________________________________________________________________________________________________________________________________________________
+3: 
+3:        step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+3:   lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+3:     age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Si_cntr  v_div_cs       dt_limit
+3: __________________________________________________________________________________________________________________________________________________
+3: 
+4:           1   8.306062  4.688E+04 -14.265939   7.471957   0.640000   0.640000   0.000000   0.000000   0.012901  30.970176   1666      0
+4: -7.5960E+00   8.015222  -0.589685   2.123637   6.847746 -12.764250   0.000000   0.000000   0.500000   0.987099   6.396104     59
+4:  2.5350E-08   6.498016   2.459232   7.471955 -99.000000  -7.759270   0.000000   0.500000   0.000000   0.000000  0.000E+00    initial dt
+4: 
+7:           1   8.306062  4.688E+04 -14.265939   7.471957   0.640000   0.640000   0.000000   0.000000   0.012901  30.970176   1666      0
+7: -7.5960E+00   8.015222  -0.589685   2.123637   6.847746 -12.764250   0.000000   0.000000   0.500000   0.987099   6.396104     59
+7:  2.5350E-08   6.498016   2.459232   7.471955 -99.000000  -7.759270   0.000000   0.500000   0.000000   0.000000  0.000E+00    initial dt
+7: 
+3:           1   8.306062  4.688E+04 -14.265939   7.471957   0.640000   0.640000   0.000000   0.000000   0.012901  30.970176   1666      0
+3: -7.5960E+00   8.015222  -0.589685   2.123637   6.847746 -12.764250   0.000000   0.000000   0.500000   0.987099   6.396104     59
+3:  2.5350E-08   6.498016   2.459232   7.471955 -99.000000  -7.759270   0.000000   0.500000   0.000000   0.000000  0.000E+00    initial dt
+3: 
+2:           1   8.306062  4.688E+04 -14.265939   7.471957   0.640000   0.640000   0.000000   0.000000   0.012901  30.970176   1666      0
+2: -7.5960E+00   8.015222  -0.589685   2.123637   6.847746 -12.764250   0.000000   0.000000   0.500000   0.987099   6.396104     59
+2:  2.5350E-08   6.498016   2.459232   7.471955 -99.000000  -7.759270   0.000000   0.500000   0.000000   0.000000  0.000E+00    initial dt
+2: 
+0:           1   8.306062  4.688E+04 -14.265939   7.471957   0.640000   0.640000   0.000000   0.000000   0.012901  30.970176   1666      0
+0: -7.5960E+00   8.015222  -0.589685   2.123637   6.847746 -12.764250   0.000000   0.000000   0.500000   0.987099   6.396104     59
+0:  2.5350E-08   6.498016   2.459232   7.471955 -99.000000  -7.759270   0.000000   0.500000   0.000000   0.000000  0.000E+00    initial dt
+0: 
+5:           1   8.306062  4.688E+04 -14.265939   7.471957   0.640000   0.640000   0.000000   0.000000   0.012901  30.970176   1666      0
+5: -7.5960E+00   8.015222  -0.589685   2.123637   6.847746 -12.764250   0.000000   0.000000   0.500000   0.987099   6.396104     59
+5:  2.5350E-08   6.498016   2.459232   7.471955 -99.000000  -7.759270   0.000000   0.500000   0.000000   0.000000  0.000E+00    initial dt
+5: 
+1:           1   8.306062  4.688E+04 -14.265939   7.471957   0.640000   0.640000   0.000000   0.000000   0.012901  30.970176   1666      0
+1: -7.5960E+00   8.015222  -0.589685   2.123637   6.847746 -12.764250   0.000000   0.000000   0.500000   0.987099   6.396104     59
+1:  2.5350E-08   6.498016   2.459232   7.471955 -99.000000  -7.759270   0.000000   0.500000   0.000000   0.000000  0.000E+00    initial dt
+1: 
+4: save LOGS_burning_normal_1,2_approx21/profile1.data for model 1
+4:  ERROR: OP mono controls must satisfy
+4:  high_logT_op_mono_full_off >= high_logT_op_mono_full_on
+4:  high_logT_op_mono_full_on >= low_logT_op_mono_full_on
+4:  low_logT_op_mono_full_on >= high_logT_op_mono_full_off
+7: save LOGS_burning_normal_1,2_approx21/profile1.data for model 1
+3: save LOGS_burning_normal_1,2_approx21/profile1.data for model 1
+0: save LOGS_burning_normal_1,2_approx21/profile1.data for model 1
+2: save LOGS_burning_normal_1,2_approx21/profile1.data for model 1
+3:  ERROR: OP mono controls must satisfy
+3:  high_logT_op_mono_full_off >= high_logT_op_mono_full_on
+3:  high_logT_op_mono_full_on >= low_logT_op_mono_full_on
+3:  low_logT_op_mono_full_on >= high_logT_op_mono_full_off
+6:           1   8.306062  4.688E+04 -14.265939   7.471957   0.640000   0.640000   0.000000   0.000000   0.012901  30.970176   1666      0
+6: -7.5960E+00   8.015222  -0.589685   2.123637   6.847746 -12.764250   0.000000   0.000000   0.500000   0.987099   6.396104     59
+6:  2.5350E-08   6.498016   2.459232   7.471955 -99.000000  -7.759270   0.000000   0.500000   0.000000   0.000000  0.000E+00    initial dt
+6: 
+7:  ERROR: OP mono controls must satisfy
+7:  high_logT_op_mono_full_off >= high_logT_op_mono_full_on
+7:  high_logT_op_mono_full_on >= low_logT_op_mono_full_on
+7:  low_logT_op_mono_full_on >= high_logT_op_mono_full_off
+4: DATE: 2023-07-26
+4: TIME: 16:34:03
+0:  ERROR: OP mono controls must satisfy
+0:  high_logT_op_mono_full_off >= high_logT_op_mono_full_on
+0:  high_logT_op_mono_full_on >= low_logT_op_mono_full_on
+0:  low_logT_op_mono_full_on >= high_logT_op_mono_full_off
+2:  ERROR: OP mono controls must satisfy
+2:  high_logT_op_mono_full_off >= high_logT_op_mono_full_on
+2:  high_logT_op_mono_full_on >= low_logT_op_mono_full_on
+2:  low_logT_op_mono_full_on >= high_logT_op_mono_full_off
+5: save LOGS_burning_normal_1,2_approx21/profile1.data for model 1
+1: save LOGS_burning_normal_1,2_approx21/profile1.data for model 1
+5:  ERROR: OP mono controls must satisfy
+5:  high_logT_op_mono_full_off >= high_logT_op_mono_full_on
+5:  high_logT_op_mono_full_on >= low_logT_op_mono_full_on
+5:  low_logT_op_mono_full_on >= high_logT_op_mono_full_off
+1:  ERROR: OP mono controls must satisfy
+1:  high_logT_op_mono_full_off >= high_logT_op_mono_full_on
+1:  high_logT_op_mono_full_on >= low_logT_op_mono_full_on
+1:  low_logT_op_mono_full_on >= high_logT_op_mono_full_off
+3: DATE: 2023-07-26
+3: TIME: 16:34:03
+7: DATE: 2023-07-26
+7: TIME: 16:34:03
+0: DATE: 2023-07-26
+0: TIME: 16:34:04
+2: DATE: 2023-07-26
+2: TIME: 16:34:04
+5: DATE: 2023-07-26
+5: TIME: 16:34:04
+1: DATE: 2023-07-26
+1: TIME: 16:34:04
+6: save LOGS_burning_normal_1,2_approx21/profile1.data for model 1
+6:  ERROR: OP mono controls must satisfy
+6:  high_logT_op_mono_full_off >= high_logT_op_mono_full_on
+6:  high_logT_op_mono_full_on >= low_logT_op_mono_full_on
+6:  low_logT_op_mono_full_on >= high_logT_op_mono_full_off
+6: DATE: 2023-07-26
+6: TIME: 16:34:04

@@ -1,0 +1,13 @@
+0: DATE: 2023-07-27
+0: TIME: 15:52:03
+0:  reading user weak rate file /userdata/data/bhat/D6/mesa-r23.05.1/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+0:  version_number r23.05.1
+0:  read inlist_project
+0: load saved model WD_064.mod
+0: 
+0: /userdata/data/bhat/D6/KavliSP23/Test_Ni/Relax_WD_2/./rn: line 6: 3140029 Killed                  ./star
+0: DATE: 2023-07-27
+0: TIME: 15:52:18
+0: slurmstepd-reticulum: error: Detected 1 oom-kill event(s) in step 14968732.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: reticulum: task 0: Out Of Memory
+slurmstepd-reticulum: error: Detected 1 oom-kill event(s) in step 14968732.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
