@@ -17,8 +17,6 @@
     
     show_log_description_at_start = .false.
 
-    show_net_species_info = .true.
-
     set_initial_cumulative_energy_error = .true.
     new_cumulative_energy_error = 0d0
 

@@ -35,10 +35,14 @@ if plot=="composition":
 elif plot=="rhoT":
     h3 = np.genfromtxt('entropy.dat',skip_header=1)
     plt.plot(h.logRho, h.logT)
+    h4 = mr.MesaData('../../Test1/make_WD_model/LOGS/profile2.data')
+    plt.plot(h4.logRho, h4.logT)
+
     plt.plot(np.log10(h3[:,1]),np.log10(h3[:,2]))
     plt.xlabel(r"log$\rho$")
     plt.ylabel("logT")
-    plt.savefig("Plots/entropy_relaxed_064_normalh_he4.pdf")
+    plt.legend(['Relaxed WD','Original WD','Simulation'])
+    plt.savefig("Plots/entropy_relaxed_064_normalh_he4_comparisonwithWD.png")
         #plt.gca().invert_xaxis()
 
 elif plot=="profile":

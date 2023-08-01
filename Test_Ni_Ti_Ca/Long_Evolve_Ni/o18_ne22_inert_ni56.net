@@ -1,5 +1,0 @@
-     include 'basic.net'
-
-     include 'add_o18_and_ne22'
-
-     add_isos(si28,ni56)

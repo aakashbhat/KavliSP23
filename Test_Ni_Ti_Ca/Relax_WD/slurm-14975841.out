@@ -1,6 +1,0 @@
-0: DATE: 2023-07-28
-0: TIME: 13:53:09
-0: run inlist_project
-0: /userdata/data/bhat/D6/mesa-r23.05.1/star/test_suite/test_suite_helpers: line 26: ./rn1: No such file or directory
-0: rn1 failed
-srun: error: reticulum: task 0: Exited with exit code 1
