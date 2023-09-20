@@ -52,7 +52,7 @@
    !dq_ratio ! dq(k-1)/dq(k)
    !q ! fraction of star mass interior to outer boundary of this zone
    !log_q ! log10(q)
-   !xq
+   xq
 
    !grav ! gravitational acceleration (cm sec^2)
    !log_g ! log10 gravitational acceleration (cm sec^2)

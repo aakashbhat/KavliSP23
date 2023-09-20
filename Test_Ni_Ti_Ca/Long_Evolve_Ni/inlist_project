@@ -3,7 +3,7 @@
 
    ! this uses one of the prebuilt zams models from mesa/data/star_data
     change_net=.true.
-    new_net_name="o18_ne22_fe56_ni56.net"!"approx21_plus_co56.net"
+    new_net_name="approx21_plus_co56.net"
     show_net_species_info=.true.
     show_net_reactions_info=.true.
     !set_initial_dt = .true.
